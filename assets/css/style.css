@@ -38,7 +38,6 @@ footer {
 }
 /* #Carousel items */
 
-
 /* #Navbar custom */
 .navbar-dark .navbar-brand {
   color: var(--var-nav-top);
@@ -77,6 +76,7 @@ footer {
 }
 .top-slide article {
   position: absolute;
+  margin-left: 115px;
   z-index: 1;
 }
 .top-slide article h1 {
@@ -87,7 +87,25 @@ footer {
 }
 .top-slide article h5 {
   color: var(--var-light-text);
+}
+.top-slide article figure {
+  margin-left:4em;
+}
+.top-slide .logo_top-slide-sg_falabella{
+  margin-top:50px;
+  margin-left:47px;
+}
+.top-slide article p {
   opacity: 0.5;
+  margin-left: 30px;
+}
+.carousel-item_sg-fallabella {
+  opacity:0.9;
+  background-color:#262d33;
+}
+.badge-button_count_slide {
+  font-family: "graphik";
+  font-weight: 100;
 }
 .badge-sea {
   background-color: var(--var-badge-sea);
@@ -212,6 +230,9 @@ footer {
 .text-shadow {
 }
 .img-focus {
+}
+.a {
+  background-color: var(--var-dark);
 }
 
 @media (min-width: 499px) {
