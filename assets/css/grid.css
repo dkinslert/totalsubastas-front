@@ -1,0 +1,58 @@
+.top-slide {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1.4fr 0.6fr;
+  gap: 10px 10px;
+  grid-template-areas: "a a b b" "a a c d";
+}
+.b {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . ." ". . .";
+  grid-area: b;
+  background: #ffd980 0% 0% no-repeat padding-box;
+}
+.a {
+  grid-area: a;
+}
+.c {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . ." ". . .";
+  grid-area: c;
+  background: #3dc47e 0% 0% no-repeat padding-box;
+}
+.d {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  background: #4592ff 0% 0% no-repeat padding-box;
+  grid-template-areas: "." ". ";
+  grid-area: d;
+}
+/* For presentation only, no need to copy the code below */
+.top-slide * {
+  /*border: 0.5px solid rgb(54, 54, 54);*/
+  position: relative;
+  border-radius: 10px;
+  /*background-color: #444;*/
+}
+.top-slide *:after {
+  content: attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#slide-submenu {
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,201 @@
+@import "fonts/stylesheet.css";
+@import "./fontawesome.css";
+@import "./brands.css";
+@import "./solid.css";
+
+:root {
+  --var-to_buy: #3dc47e;
+  --var-to_auction: #8f79d4;
+  --var-primary: #4592ff;
+  --var-light-text: #ffffff;
+  --var-social-network: #bcbfc2;
+  --var-social-network-text: #d9dadb;
+  --var-nav-top: #ffffff;
+  --var-whatsapp: #3dc47e;
+  --var-darken: #4b5157;
+  --var-dark: #262d33;
+  --var-ligthen: #d9dadb;
+  --var-footer: #f5f5f5;
+  --var-badge-sea: #c5e4fc;
+  --var-light-gray: #939699;
+  --var-badge-sea_text: #55839e;
+}
+body {
+  background-color: #000;
+  font-family: "Graphik";
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: var(--var-footer);
+}
+.navbar {
+  width: 100%;
+}
+.navbar a:hover {
+  text-decoration: none;
+}
+/* #Navbar custom */
+.navbar-dark .navbar-brand {
+  color: var(--var-nav-top);
+  font-size: small;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.nav-top {
+  background-color: var(--var-nav-top);
+  color: var(--var-dark);
+  height: 100px;
+}
+.nav-top-content {
+  background-color: var(--var-nav-top);
+  border-radius: 10px;
+}
+.nav-footer {
+  font-family: "Graphik";
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-bottom: 0.5px solid var(--var-lighten);
+}
+.nav-footer a {
+  color: var(--var-darken);
+}
+.signin-text {
+  font-weight: 700;
+}
+.main-container {
+  width: 100%;
+}
+.top-slide {
+  height: 555px;
+  margin: 0;
+}
+.badge-sea {
+  background-color: var(--var-badge-sea);
+  border-radius: 50%;
+  color: var(--var-badge-sea_text);
+  font-family: "Graphik-Regular";
+  font-weight: 100;
+}
+.btn-to_auction {
+  background-color: var(--var-to_auction);
+}
+.btn-to_buy {
+  background-color: var(--var-to_buy);
+}
+.text-to_buy {
+  color: var(--var-to_buy);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.title-to_annoucement {
+  color: var(--var-dark);
+}
+.title-to_breadcrums {
+  color: var(--var-dark);
+  font-family: "Graphik";
+  font-weight: 500;
+}
+.title-to_results {
+  color: var(--var-light-gray);
+  font-family: "Graphik";
+}
+.text-to_auction {
+  color: var(--var-to_auction);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.btn-primary {
+  background-color: var(--var-primary);
+}
+.social-network_footer {
+  color: var(--var-social-network);
+}
+.rss-send_email {
+  background-color: var(--var-primary);
+  color:  var(--var-light-text);
+  border-radius: 0px 5px 5px 0px;
+}
+.social-network_bottom ul li{
+  display:flex;
+  border-radius:50%;
+  border:1px solid var(--var-social-network-text);
+  width:40px;
+  height:40px;
+  text-align: center;
+  justify-content:center;
+  align-items:center;
+  margin-right:10px;
+}
+.social-network_bottom ul li a{
+  color:var(--var-social-network);
+}
+.social-network_bottom {
+  color:var(--var-social-network);
+}
+.copyright {
+  color: var(--var-light-gray);
+}
+.social-network_whatsapp {
+  color: var(--var-light-text);
+  background-color: var(--var-whatsapp);
+  border-radius: 50%;
+}
+.social-network_footer i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--var-social-network-text);
+  border-radius: 50%;
+  opacity: 1;
+}
+.widgets article {
+  display: flex;
+  width: 100%;
+  height: 225px;
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  opacity: 0.95;
+  border-radius: 10px;
+  fill-opacity: initial;
+}
+.widgets article button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.widgets article h2 {
+  position: absolute;
+  color: var(--var-light-text);
+  display: flex;
+  font-family: "Graphik";
+  font-weight: bold;
+  padding-top: 37px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+  margin: 0 auto;
+}
+.widgets article p {
+  position: absolute;
+  color: var(--var-light-text);
+  display: flex;
+  font-family: "Graphik";
+  font-weight: 400;
+  padding-top: 99px;
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
+.widgets article h1 p {
+}
+.text-shadow {
+}
+.img-focus {
+}
+
+@media (min-width: 499px) {
+
+}
