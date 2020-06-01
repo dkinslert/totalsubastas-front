@@ -12,6 +12,7 @@
   --var-social-network-text: #d9dadb;
   --var-nav-top: #ffffff;
   --var-whatsapp: #3dc47e;
+  --var-carousel-text: #656b70;
   --var-darken: #4b5157;
   --var-dark: #262d33;
   --var-ligthen: #d9dadb;
@@ -101,13 +102,31 @@ footer {
 }
 .carousel-item_sg-fallabella {
   opacity: 0.9;
-  background-color: #262d33;
+  background-color: var(--var-dark);
 }
 .carousel-text_item_b-top {
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.5;
+  color: var(--var-carousel-text);
+  text-transform: uppercase;
+  font-size: medium;
 }
 .carousel-text_item_b {
   font-weight: 700;
+  font-size: 25px;
+  color: var(--var-dark);
+}
+.carousel-text_item_b-text {
+  color: var(--var-darken);
+  font-size: 14px;
+}
+.text-doc_saga-fallabella {
+  font-family: "graphik";
+  font-weight: 100;
+  opacity: 0.9;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .badge-button_count_slide {
   font-family: "graphik";

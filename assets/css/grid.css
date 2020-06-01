@@ -25,6 +25,7 @@
   gap: 1px 1px;
   grid-template-areas: ". . ." ". . .";
   grid-area: c;
+  content: '\f15b';
   background: #3dc47e 0% 0% no-repeat padding-box;
 }
 .d {
