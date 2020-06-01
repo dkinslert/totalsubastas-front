@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!-- head -->
 <head>
   <title>Getting Started</title>
   <script src="https://unpkg.com/lodash@4.16.6"></script>
@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
+<!-- body -->
 <body class="bg-light">
   <!-- Header -->
   <header>
@@ -57,18 +57,23 @@
             </svg>
           </a>
         </a>
+        <!-- Link nav - Link nr° 1- top -->
         <a href="#" class="navbar-brand d-flex align-items-center">
           Subastas
         </a>
+        <!-- Link nav - Link nr° 2- top -->
         <a href="#" class="navbar-brand d-flex align-items-center">
           Preguntas
         </a>
+        <!-- Link nav - Link nr° 3- top -->
         <a href="#" class="navbar-brand d-flex align-items-center">
           Condiciones
         </a>
+        <!-- Link nav - Link nr° 4- top -->
         <a href="#" class="navbar-brand d-flex align-items-center">
           Quienes somos
         </a>
+        <!-- Link nav - Link nr° 5- top -->
         <a href="#" class="navbar-brand d-flex align-items-center">
           Vender
         </a>
@@ -90,15 +95,15 @@
       <!-- slider -->
       <div class="top-slide pt-5 mb-5 col-sm-12">
         <div class="a ">
-          
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-interval="1000">
-                <article>
+                <article class="top-slide_carousel-item-a">
                   <figure>
-                  <img class="mb-2 logo_top-slide-sg_falabella" src="./assets/img/image-207.png" alt="">
-                  <h5 class="">Saga Falabella</h5>
-                  <p>20.05.20</p>
+                    <!-- slider item carousel logo fallabella -->
+                    <img class="mb-2 logo_top-slide-sg_falabella" src="./assets/img/image-207.png" alt="">
+                    <h5 class="">Saga Falabella</h5>
+                    <p class="date_top-slide-sg_falabella">20.05.20</p>
                   </figure>
                   <h1>
                     Gran subasta <br> 10 activos <br>podran ser tuyos
@@ -109,24 +114,35 @@
                     <span class="badge ml-4 badge-button_count_slide">10</span>
                   </button>
                 </article>
-                <img  src="./assets/img/image-205.png" height="499px" class="d-block w-100" alt="...">
+                <!-- slider item carousel nr° 1 -->
+                <img src="./assets/img/image-205.png" height="499px" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item" data-interval="2000">
+                <!-- slider item carousel nr° 2 -->
                 <img src="..." height="499px" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
+                <!-- slider item carousel nr° 3 -->
                 <img src="..." height="499px" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
         </div>
-        <div class="b d-none d-sm-block d-sm-none d-md-block">
+        <div class="b ml-3 pl-5 pt-5 d-none d-sm-block d-sm-none d-md-block">
+          <article>
+            <p class="carousel-text_item_b-top"> como subastar? </p>
+            <h2 class="carousel-text_item_b">Te ense&ntilde;amos a Subastar</h2>
+            <p>Encuentra oportunidades de ingreso, o a lo mejor un gran auto</p>
+            <p>para ti y tu familia</p>
+            <button class="btn btn-to_buy text-light pr-4 pl-4 rounded-pill bt-sm">
+              conoce +
+            </button>
+          </article>
+        </div>
+        <div class="c ml-3 mt-3 d-none d-sm-block d-sm-none d-md-block">
 
         </div>
-        <div class="c d-none d-sm-block d-sm-none d-md-block">
-
-        </div>
-        <div class="d d-none d-sm-block d-sm-none d-md-block">
+        <div class="d mt-3 ml-3 d-none d-sm-block d-sm-none d-md-block">
 
         </div>
       </div>
@@ -253,6 +269,7 @@
             </div>
           </div>
         </div>
+        <!-- Btn -- load more items -->
         <div class="col-md col-12">
           <nav aria-label="breadcrumb">
             <button type="button" class="btn btn-light rounded-pill expanded btn-block border">Load more</button>
@@ -358,8 +375,11 @@
           </form>
         </nav>
       </footer>
-    </div>
+      <!-- end footer -->
+    </div> 
+          <!-- end row -->
   </div>
+        <!-- end container -->
   <script src="./src/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
