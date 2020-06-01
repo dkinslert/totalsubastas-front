@@ -2,7 +2,7 @@
 @import "./fontawesome.css";
 @import "./brands.css";
 @import "./solid.css";
-
+/* Var root */
 :root {
   --var-to_buy: #3dc47e;
   --var-to_auction: #8f79d4;
@@ -21,23 +21,23 @@
   --var-badge-sea_text: #55839e;
   --var-carousel-item: #ffd980;
 }
+/* Body  */
 body {
-  background-color: #000;
   font-family: "Graphik";
 }
+/* Footer  */
 footer {
   width: 100%;
   height: auto;
   background-color: var(--var-footer);
 }
+/* Nav  */
 .navbar {
   width: 100%;
 }
 .navbar a:hover {
   text-decoration: none;
 }
-/* #Carousel items */
-
 /* #Navbar custom */
 .navbar-dark .navbar-brand {
   color: var(--var-nav-top);
@@ -89,7 +89,7 @@ footer {
   color: var(--var-light-text);
 }
 .top-slide article figure {
-  margin-left: 4em;
+  margin-left: 6em;
 }
 .top-slide .logo_top-slide-sg_falabella {
   margin-top: 50px;
