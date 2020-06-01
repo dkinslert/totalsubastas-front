@@ -159,6 +159,7 @@ footer {
   color: var(--var-light-text);
   border-radius: 0px 5px 5px 0px;
 }
+
 .social-network_bottom ul li {
   display: flex;
   border-radius: 50%;
