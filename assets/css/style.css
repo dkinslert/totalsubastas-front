@@ -11,6 +11,7 @@
   --var-social-network: #bcbfc2;
   --var-lighthen-gray: #bcbfc2;
   --var-social-network-text: #d9dadb;
+  --var-lighthen-gray-text: #d9dadb;
   --var-nav-top: #ffffff;
   --var-whatsapp: #3dc47e;
   --var-carousel-text: #656b70;
@@ -106,6 +107,8 @@ footer {
   position: absolute;
   margin-left: 115px;
   z-index: 1;
+}
+.top-slide_carousel-item-b {
 }
 .top-slide article h1 {
   color: var(--var-light-text);
@@ -309,4 +312,7 @@ footer {
 }
 .text-light_darken {
   color: var(--var-light-gray);
+}
+.text-light_dark {
+  color: var(--var-lighthen-gray-tex);
 }
