@@ -85,7 +85,7 @@ footer {
   font-weight: 700;
 }
 .main-container {
-  width: 100%;
+ background-color: var(--var-nav-top);
 }
 .c-all_items{
   width: 100%;
