@@ -65,6 +65,22 @@ footer {
 .nav-footer a {
   color: var(--var-darken);
 }
+/* nav main content */
+.nav-top_main-content {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+.nav-top_main-content a {
+  font-size: 20px;
+  font-family: "Graphik";
+  font-weight: 700;
+  color: var(--var-dark);
+}
+.title-light_darken {
+  font-size:20px;
+  font-family: "Graphik";
+  font-weight: 400;
+}
 .signin-text {
   font-weight: 700;
 }
@@ -279,4 +295,7 @@ footer {
 /* */
 .text-darken {
   color: var(--var-darken); 
+}
+.text-light_darken {
+  color: var(--var-light-gray);
 }
