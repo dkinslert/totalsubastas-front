@@ -10,8 +10,20 @@ $( document ).ready(function () {
             $("#loadMore").fadeOut('slow');
         }
     });
+    $('#showpassword').on('click', function(e){
+        var x = document.getElementById("myInput");
+        e.preventDefault();
+        if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+        }
+    })
+        
 });
 
+
+
 (function(){
-console.log("Hello, World!")
+   
 }())
