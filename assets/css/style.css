@@ -86,6 +86,21 @@ footer {
   font-family: "Graphik";
   font-weight: 400;
 }
+.jumbotron-top_container {
+  background-image: url("");
+  background-color: var(--var-darken);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 349px;
+  width: 100%;
+}
+.jumbotron-top_container h1 {
+  font-size: 55px;
+  font-family: "Graphik";
+}
+.jumbotron-top_container p {
+  font-size: 18px;
+}
 .signin-text {
   font-weight: 700;
 }
