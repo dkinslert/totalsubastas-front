@@ -87,9 +87,8 @@ footer {
   font-weight: 400;
 }
 .jumbotron-top_container {
-  background-image: url("");
   background-color: var(--var-darken);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 349px;
   width: 100%;
@@ -115,7 +114,6 @@ footer {
   height: 555px;
   margin: 0;
 }
-
 .carousel-indicators {
   position: absolute;
 }
