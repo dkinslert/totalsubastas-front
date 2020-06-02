@@ -87,9 +87,16 @@ footer {
 .main-container {
   width: 100%;
 }
+.c-all_items{
+  width: 100%;
+  background-color: var(--var-nav-top);
+}
 .top-slide {
   height: 555px;
   margin: 0;
+}
+.carousel-indicators {
+  position:absolute;
 }
 .top-slide .top-slide_carousel-item-a {
   position: absolute;
