@@ -116,6 +116,9 @@ footer {
   font-family: "graphik";
   color: var(--var-light-text);
 }
+.carousel-btn-look_lote {
+  margin-left: 4em;
+}
 /* img item n° 1 */
 .carousel-item-a_imagen {
   opacity: .5;
@@ -187,7 +190,6 @@ footer {
   color: var(--var-light-text);
   border-radius: 0px 5px 5px 0px;
 }
-
 .social-network_bottom ul li {
   display: flex;
   border-radius: 50%;
@@ -272,4 +274,9 @@ footer {
 }
 
 @media (min-width: 499px) {
+}
+
+/* */
+.text-darken {
+  color: var(--var-darken); 
 }
