@@ -303,6 +303,9 @@ footer {
 /* Datasheet */
 .data_sheet-d {
 }
+.d-places {
+  border-radius: 10px;
+}
 .data_sheet-d .data_sheet-menu {
   border-right: 0.5px solid #656b70;
 }
