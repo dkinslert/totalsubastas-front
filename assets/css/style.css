@@ -107,6 +107,33 @@ footer {
 .main-container {
   background-color: var(--var-nav-top);
 }
+.mc-card_top {
+  border-radius:10px;
+  height:169px;
+  width:263px;
+  font-family: "Graphik";
+}
+.mc-card_top .card-title {
+  font-size:14px;
+  width: 100%;
+  padding-left:20px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid var(--var-ligthen);
+}
+.mc-card_top .card-body {
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mc-card_top .card-title p {
+  font-size: 18px;
+  margin-bottom: 0rem;
+}
+.b-title {
+  font-size: 18px;
+  font-weight: 500;
+}
 .c-all_items {
   width: 100%;
   background-color: var(--var-nav-top);
@@ -354,4 +381,7 @@ footer {
 }
 .text-light_dark {
   color: var(--var-lighthen-gray-tex);
+}
+.bg-darken {
+  background-color: var(--var-darken);
 }
