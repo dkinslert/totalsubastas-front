@@ -123,16 +123,22 @@ footer {
 }
 .mc-card_top .card-body {
   padding: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .mc-card_top .card-title p {
   font-size: 18px;
   margin-bottom: 0rem;
+  padding-left:0;
+  padding-right:0;
+}
+.card-body .sm-text_card {
+  font-size: 11px;
 }
 .b-title {
   font-size: 18px;
   font-weight: 500;
+  margin: 0;
 }
 .c-all_items {
   width: 100%;
@@ -370,6 +376,9 @@ footer {
 }
 
 @media (min-width: 499px) {
+  .mc-card_top {
+    width:100%;
+  }
 }
 
 /* */
