@@ -17,7 +17,7 @@
   --var-carousel-text: #656b70;
   --var-darken: #4b5157;
   --var-dark: #262d33;
-  --var-darken_light: #EDEFF0;
+  --var-darken_light: #edeff0;
   --var-ligthen: #d9dadb;
   --var-footer: #f5f5f5;
   --var-badge-sea: #c5e4fc;
@@ -109,15 +109,15 @@ footer {
   border-radius: 10px;
 }
 .mc-card_top {
-  border-radius:10px;
-  height:169px;
-  width:263px;
+  border-radius: 10px;
+  height: 169px;
+  width: 263px;
   font-family: "Graphik";
 }
 .mc-card_top .card-title {
-  font-size:14px;
+  font-size: 14px;
   width: 100%;
-  padding-left:20px;
+  padding-left: 20px;
   text-transform: uppercase;
   padding-bottom: 20px;
   border-bottom: 0.5px solid var(--var-ligthen);
@@ -130,8 +130,8 @@ footer {
 .mc-card_top .card-title p {
   font-size: 18px;
   margin-bottom: 0rem;
-  padding-left:0;
-  padding-right:0;
+  padding-left: 0;
+  padding-right: 0;
 }
 .card-body .sm-text_card {
   font-size: 11px;
@@ -305,11 +305,30 @@ footer {
 .data_sheet-d {
 }
 .d-s_especificaciones {
-  width:72px;
+  width: 72px;
 }
-
 .data_sheet-d .data_sheet-menu {
   border-right: 0.5px solid #656b70;
+}
+.data_sheet-d a {
+  color: var(--var-carousel-text);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Graphik";
+  text-transform: uppercase;
+}
+.d-sheet_link {
+  font-size: 25px;
+  text-align: center;
+  padding: 18px;
+  border-bottom: 0.89px solid #262d33;
+}
+/* Myaccount */
+.m-acc_text h2 {
+  font-size: 20px;
+  color: var(--var-dark);
+  font-weight: 700;
 }
 /* Register Form */
 .t-rform_top h1 {
@@ -318,15 +337,15 @@ footer {
 .t-rform_top_img {
   background-color: var(--var-dark);
   background-image: url("../img/image-083.png");
-  background-size:cover;
-  background-position:center;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  border-radius:14px;
-  background-repeat:no-repeat;
+  border-radius: 14px;
+  background-repeat: no-repeat;
 }
 .checkbox-primary {
-  width:12px;
-  height:12px;
+  width: 12px;
+  height: 12px;
   color: var(--var-primary);
 }
 .widgets article {
@@ -382,7 +401,7 @@ footer {
 
 @media (min-width: 499px) {
   .mc-card_top {
-    width:100%;
+    width: 100%;
   }
 }
 
