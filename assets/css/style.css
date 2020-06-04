@@ -303,12 +303,11 @@ footer {
 }
 /* Datasheet */
 .data_sheet-d {
-
 }
 .data_sheet-d_sm-text {
   font-size: 10px;
-    font-weight: 500;
-    font-family: "Graphik";
+  font-weight: 500;
+  font-family: "Graphik";
 }
 
 .d-s_especificaciones {
@@ -410,6 +409,7 @@ footer {
   .mc-card_top {
     width: 100%;
   }
+ 
 }
 
 /* */
