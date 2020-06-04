@@ -54,6 +54,15 @@ footer {
   color: var(--var-dark);
   height: 100px;
 }
+.navbar-top a {
+  margin: 0 auto;
+  font-size: medium;
+  padding-left: 65px;
+  color: var(--var-nav-top);
+  font-size: small;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 .nav-top-content {
   background-color: var(--var-nav-top);
   border-radius: 10px;
