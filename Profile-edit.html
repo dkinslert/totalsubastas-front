@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<!-- head -->
+
+<head>
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<!-- body -->
+
+<body style="background-color:#EDEFF0;">
+    <!-- revisar el color de fondo de los forms y las vista -- # Container-->
+    <!-- Header -->
+    <header>
+        <div class="navbar nav-top">
+            <div class="container d-flex ">
+                <ul class="nav justify-content-start ">
+                    <li class="nav-item">
+                        <a href="#" class="navbar-brand d-flex text-dark align-items-center">
+                            (+51) 460-2000
+                        </a>
+                    </li>
+                    <li class="nav-item mt-2 ml-2 ">
+                        <a href="#" class="text-dark">
+                            <i class="fab fa-whatsapp social-network_whatsapp"></i>
+                            Chat en vivo
+                        </a>
+                    </li>
+                </ul>
+                <a href="./index.html" class="">
+                    <strong>total</strong>
+                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item mr-4">
+                        <a class="nav-link text-dark signin-text" href="./login.html">
+                            Ingresar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./registro.html" class="btn btn-primary rounded-pill "> <span></span><i
+                                class="fas fa-user mr-2"></i>
+                            Registrate </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Navbar header bottom -->
+        <div class="navbar navbar-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center pl-5 mr-5" href="#"><img src="./assets/img/peru.png"
+                        alt="" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <a href="./subastas.html" class="navbar-brand d-flex align-items-center">
+                        Subastas
+                    </a>
+                    <a href="./FAQS.html" class="navbar-brand d-flex align-items-center">
+                        Preguntas
+                    </a>
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        Condiciones
+                    </a>
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        Quienes somos
+                    </a>
+                    <!-- Link nav - Link nr° 5- top -->
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        Vender
+                    </a>
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <svg class="bd-placeholder-img rounded-circle" width="25" height="25"
+                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                            role="img" aria-label="Completely round image: 75x75">
+                            <title>Completely round image</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect>
+                            <text x="25%" y="25%" fill="#dee2e6" dy=".3em"></text>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Container -->
+    <div class="container">
+        <div class="row">
+            <!-- main content -->
+            <div class="col-md col-md-12 mt-5">
+                <div class="row">
+                    <!--<div class="col-md-4  t-rform_top_img  d-sm-none d-lg-block">
+                
+              </div>-->
+                    <div class="col-md-9 col-sm-12  col-xs-12t-rform_top main-container p-5">
+                        <h2 class=" font-weight-bold text-dark pb-5 text-center">
+                            Customer information
+                        </h2>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-4 col-sm-12">
+                                    <label for="name" class="font-weight-bold text-dark">Nombres</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="name" class="font-weight-bold text-dark">Apellidos</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="name" class="font-weight-bold text-dark">Celular</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="name" class="font-weight-bold text-dark">Correo electronico</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="name" class="font-weight-bold text-dark">Fecha de nacimiento</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="name" class="font-weight-bold text-dark">RUC</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+
+
+                                    <label for="name" class="font-weight-bold text-dark">Documento de identidad</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="name" class="font-weight-bold text-dark">Contrase&ntilde;a</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <label for="name" class="font-weight-bold text-dark">Pais</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <label for="name" class="font-weight-bold text-dark">Ciudad</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name" class="font-weight-bold text-dark">Direcci&oacute;n</label>
+                                    <input type="text" name="name" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col bg-light">
+                                        <div class="media border-bottom mb-5 pb-2 pt-4">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                </label>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="mt-0">Person juridica</h5>
+                                                Necesito solo facturaci&oacute;n
+                                            </div>
+                                        </div>
+
+                                        <div class="media ">
+                                            <div class="input-group">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                                        id="exampleRadios1" value="option1" checked>
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                    </label>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="mt-0">Person Natural</h5>
+                                                    Necesito solo Recibo
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+
+                                    </div>  
+                                    <div class="col">
+                                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+                                    </div>
+                                    </div>
+                                    <div class="form-group col-md-12 text-center offset-md pt-4">
+                                       <button class="btn  btn-to_buy pl-5 pr-5 text-light rounded-pill">Guardar cambios</button>
+                                       <button class="btn btn-outline-primary pl-5 pr-5 rounded-pill ">cambiar contrase&ntilde;a</button>
+                                    </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <!-- Btn -- load more items -->
+
+            <!-- Widgets -->
+            <div class="row">
+                <div class="col-md col-12 pt-5 img-focus col-sm-6 col-xs-12 widgets">
+                    <article>
+                        <h2 class="ml-5">Credito vehicular</h2>
+                        <p class="ml-5">
+                            Te ofrecemos asesoria especializada, si eres cliente de totalsubastas contactanos
+                        </p>
+                        <img src="./assets/img/image-368.png" alt="">
+                        <button class="btn btn-primary rounded-pill mb-5 mr-5 pt-1 pb-1 pr-5 pl-4 border-0">
+                            Aqu&iacute;
+                            <!-- font icon-->
+                        </button>
+                    </article>
+                </div>
+                <div class="col-md col-12 pt-5 img-focus col-sm-6 col-xs-12 widgets">
+                    <article>
+                        <h2 class="ml-5">Asesoria legal?</h2>
+                        <p class="ml-5">
+                            Te ofrecemos asesoria especializada, si eres cliente de totalsubastas contactanos
+                        </p>
+                        <img src="./assets/img/image-368-1.png" alt="">
+                        <button class="btn btn-primary rounded-pill mb-5 mr-5 pt-1 pb-1 pr-5 pl-4 border-0">
+                            Aqu&iacute;
+                            <!-- font icon-->
+                            <i class="fa fa"></i>
+                        </button>
+                    </article>
+                </div>
+            </div>
+            <!--Footer-->
+            <footer>
+                <div class="row">
+                    <div class="col-sm col-8 pt-5 col-md-8 align-self-center col-sm-12 col-xs-12 mb-2 mt-5 ml-sm-auto">
+                        <article>
+                            <div class="input-group col-md-8 offset-md-6 ">
+                                <input type="text" class="form-control"
+                                    placeholder="Ingresa tu correo para alerta de oportunidades!"
+                                    aria-label="Ingresa tu correo para alerta de oportunidades!"
+                                    aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text rss-send_email" id="basic-addon2">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Social Networks -->
+                    <div class="col-sm col-md-4 ml-md-auto col-4 pt-5 col-sm-12 col-xs-12 mb-2 mt-5">
+                        <article>
+                            <article class="social-network_bottom">
+                                <ul class="nav justify-content-end m-3 ">
+                                    <li class="nav-item"><a href=""><i class="fab fa-facebook"></i></a></li>
+                                    <li class="nav-item "><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li class="nav-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </article>
+                        </article>
+                    </div>
+                </div>
+                <!-- Bottom footer -->
+                <div class="navbar nav-footer shadow-sm pt-5 pb-5">
+                    <div class="container d-flex justify-content-between ">
+                        <a href="#" class="navbar-brand d-flex align-items-center">
+                            <span>Subastas</span>
+                        </a>
+                        <a href="#" class="navbar-brand d-flex align-items-center">
+                            <span>Preguntas</span>
+                        </a>
+                        <a href="#" class="navbar-brand d-flex align-items-center">
+                            <span>Condiciones</span>
+                        </a>
+                        <a href="#" class="navbar-brand d-flex align-items-center">
+                            <span>Quienes somos</span>
+                        </a>
+                        <a href="#" class="navbar-brand d-flex align-items-center">
+                            <span>Vender</span>
+                        </a>
+                    </div>
+                </div>
+                <!--Footer navbar-->
+                <nav class="navbar navbar-expand-lg d-flex justify-content-around pt-5 pb-5">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <span class="copyright">&copy;</span> <span class="ml-2 copyright">2020 Totalsubastas
+                                </span> <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">whatsapp</a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">Asesoria legal</a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a class="nav-link disabled " href="#" tabindex="-1"
+                                aria-disabled="true">Cont&aacute;ctenos</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 mr-5 social-network_footer">
+                        total
+                    </form>
+                </nav>
+            </footer>
+            <!-- end footer -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+    <script src="./src/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
