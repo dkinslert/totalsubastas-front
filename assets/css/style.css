@@ -262,6 +262,10 @@ footer {
   background-color: #ffffff;
   color: var(--var-drken);
 }
+.btn-outline-light_b:hover {
+  border: 1px solid var(--var-primary);
+  color: var(--var-drken);
+}
 .btn-outline-primary:hover {
   background-color: var(--var-primary);
 }
