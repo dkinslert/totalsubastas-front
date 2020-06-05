@@ -25,6 +25,7 @@
   --var-light-gray: var(--var-lighthen-gray);
   --var-badge-sea_text: #55839e;
   --var-carousel-item: #ffd980;
+  --var-progress-bar: var(--var-carousel-item);
 }
 /* Body  */
 body {
@@ -261,7 +262,6 @@ footer {
   background-color: #ffffff;
   color: var(--var-drken);
 }
-
 .btn-outline-primary:hover {
   background-color: var(--var-primary);
 }
@@ -356,6 +356,22 @@ footer {
 }
 /* Datasheet */
 .data_sheet-d {
+}
+.data_sheet-live_bg-progress_bar {
+  background-color : var(--var-progress-bar);
+}
+.badge_live {
+  font-family: "Graphik";
+  font-size: 20px;
+}
+.text-badge_live {
+  text-transform : uppercase;
+  font-size: 14px;
+}
+.badge_btn {
+  font-family: "Graphik";
+  font-size: 29px;
+  font-weight: 600;
 }
 .data_sheet-d_sm-text {
   font-size: 10px;
