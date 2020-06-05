@@ -167,7 +167,7 @@ footer {
   margin-left: 115px;
   z-index: 1;
 }
-.carousel-indicators li{
+.carousel-indicators li {
   border-radius: 50%;
   height: 30px;
 }
@@ -227,7 +227,20 @@ footer {
   font-size: 14px;
 }
 #loadMore:hover {
-  background-color: var(--var-lighthen-gray)
+  background-color: var(--var-lighthen-gray);
+}
+.text-s_gd-sheet {
+  font-family: "Graphik";
+  font-weight: 500;
+  font-size: 12.5px;
+  margin: 0;
+  padding: 0;
+}
+.btn-outline-primary {
+  border: 1px solid #4592ff;
+}
+.btn-outline-primary:hover {
+  background-color: var(--var-primary);
 }
 .text-doc_saga-fallabella {
   font-family: "graphik";
@@ -447,4 +460,3 @@ footer {
 .bg-ligthen-gray {
   background-color: var(--var-ligthen);
 }
-
