@@ -239,6 +239,15 @@ footer {
 .btn-outline-primary {
   border: 1px solid #4592ff;
 }
+.btn-outline-dark {
+  border: 1px solid var(--var-ligthen);
+}
+.btn-outline-dark_b:hover {
+  border: 1px solid var(--var-primary);
+  background-color: #ffffff;
+  color: var(--var-drken);
+}
+
 .btn-outline-primary:hover {
   background-color: var(--var-primary);
 }
