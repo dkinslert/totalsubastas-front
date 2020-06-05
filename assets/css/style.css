@@ -362,12 +362,11 @@ footer {
   font-weight: 500;
   font-family: "Graphik";
 }
-
 .d-s_especificaciones {
   width: 72px;
 }
 .data_sheet-d .data_sheet-menu {
-  border-right: 0.5px solid #656b70;
+  border-right: 0.5px solid var(--var-ligthen)
 }
 .data_sheet-d a {
   color: var(--var-carousel-text);
@@ -378,10 +377,9 @@ footer {
   text-transform: uppercase;
 }
 .d-sheet_link {
-  font-size: 25px;
+  
   text-align: center;
   padding: 18px;
-  border-bottom: 0.89px solid var(--var-dark);
 }
 /* Myaccount */
 .m-acc_text h2 {
