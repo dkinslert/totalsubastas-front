@@ -357,6 +357,20 @@ footer {
 /* Datasheet */
 .data_sheet-d {
 }
+.r-timer_live {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--var-dark);
+  text-align:center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+}
+.r-timer_live::before {
+  content: '\f111';
+  font-family: 'Font Awesome\ 5 Free';
+  color: var(--var-to_buy);
+  margin-right: 9px;
+}
 .data_sheet-live_bg-progress_bar {
   background-color : var(--var-progress-bar);
 }
