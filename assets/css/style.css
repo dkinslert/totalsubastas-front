@@ -127,6 +127,7 @@ footer {
 }
 .mc-card_top .card-title {
   font-size: 14px;
+  font-weight: 500;
   width: 100%;
   padding-left: 20px;
   text-transform: uppercase;
@@ -416,10 +417,34 @@ border-radius: 10px;
   padding: 18px;
 }
 /* Myaccount */
+.media-body .m-acc_text{
+  display:flex;
+}
 .m-acc_text h2 {
   font-size: 20px;
   color: var(--var-dark);
   font-weight: 700;
+}
+.m-acc_text h5 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Graphik";
+    text-transform: uppercase;
+    color: var(--var-dark);
+}
+.m-acc_text span {
+  position: absolute;
+  right: 0;
+  margin-right: 59px;
+  color: var(--var-darken);
+  font: 500 14px/20px "Graphik";
+}
+.m-acc_text p {
+  font-size: 12px;
+  font-weight: 400;
+  margin:1px;
+  font-family: "Graphik";
+  color: var(--var-darken);
 }
 /* Register Form */
 .t-rform_top h1 {
