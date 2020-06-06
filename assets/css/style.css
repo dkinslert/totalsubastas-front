@@ -401,15 +401,14 @@ footer {
   font-size: 14px;
 }
 .live-push_auction {
-  width:525px;
+  width: 525px;
   margin-right: 69px;
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius:10px;
+  border-radius: 10px;
 }
-.live-push_auction-timer_bottom{
-
+.live-push_auction-timer_bottom {
 }
 .live-push_auction-timer_bottom span {
   font-size: 14px;
@@ -423,18 +422,19 @@ footer {
 }
 .live-push_action-ranking {
   width: 263px;
-  margin-right:37.999px;
+  margin-right: 37.999px;
   background-color: #fff;
+  border-radius: 10px;
 }
-.live-push_auction-ranking  {
+.live-push_auction-ranking {
   border-top: 1px solid var(--var-ligthen-gray);
 }
-.live-push_auction-timer_bottom .fa-heart{
+.live-push_auction-timer_bottom .fa-heart {
   color: var(--var-primary);
   font-size: 24.87px;
 }
 .live-push_auction-timer_bottom .fa-user {
-  color: #AC8EE3;
+  color: #ac8ee3;
   font-size: 21.96px;
 }
 .badge_btn {
