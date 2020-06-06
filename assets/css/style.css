@@ -296,6 +296,12 @@ footer {
 .btn-to_auction {
   background-color: var(--var-to_auction);
 }
+.btn-to_action-bottom {
+  color: var(--var-dark);
+  font-weight: 500;
+  font-size: 16px;
+  
+}
 .btn-to_buy {
   background-color: var(--var-to_buy);
 }
