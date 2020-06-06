@@ -431,9 +431,11 @@ footer {
 }
 .live-push_auction-timer_bottom .fa-heart{
   color: var(--var-primary);
+  font-size: 24.87px;
 }
 .live-push_auction-timer_bottom .fa-user {
   color: #AC8EE3;
+  font-size: 21.96px;
 }
 .badge_btn {
   font-family: "Graphik";
