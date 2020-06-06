@@ -119,6 +119,11 @@ footer {
   background-color: var(--var-nav-top);
   border-radius: 10px;
 }
+.text-fh_nav {
+  font-size: 14px;
+  color: var(--var-dark);
+  font-weight: 500;
+}
 .mc-card_top {
   border-radius: 10px;
   height: 169px;
@@ -248,8 +253,8 @@ footer {
   opacity: 1;
 }
 .title-d_sheet-sp {
-  font-size:20px; 
-  font-weight:500;
+  font-size: 20px;
+  font-weight: 500;
   color: var(--var-dark);
 }
 .btn-outline-primary {
@@ -366,25 +371,25 @@ footer {
   text-transform: uppercase;
   font-size: 14px;
   color: var(--var-dark);
-  text-align:center;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 10px;
+  text-align: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
 }
 .r-timer_live::before {
-  content: '\f111';
-  font-family: 'Font Awesome\ 5 Free';
+  content: "\f111";
+  font-family: "Font Awesome\ 5 Free";
   color: var(--var-to_buy);
   margin-right: 9px;
 }
 .data_sheet-live_bg-progress_bar {
-  background-color : var(--var-progress-bar);
+  background-color: var(--var-progress-bar);
 }
 .badge_live {
   font-family: "Graphik";
   font-size: 20px;
 }
 .text-badge_live {
-  text-transform : uppercase;
+  text-transform: uppercase;
   font-size: 14px;
 }
 .badge_btn {
@@ -401,7 +406,7 @@ border-radius: 10px;
   width: 72px;
 }
 .data_sheet-d .data_sheet-menu {
-  border-right: 0.5px solid var(--var-ligthen)
+  border-right: 0.5px solid var(--var-ligthen);
 }
 .data_sheet-d a {
   color: var(--var-carousel-text);
@@ -412,13 +417,12 @@ border-radius: 10px;
   text-transform: uppercase;
 }
 .d-sheet_link {
-  
   text-align: center;
   padding: 18px;
 }
 /* Myaccount */
-.media-body .m-acc_text{
-  display:flex;
+.media-body .m-acc_text {
+  display: flex;
 }
 .m-acc_text h2 {
   font-size: 20px;
@@ -426,11 +430,11 @@ border-radius: 10px;
   font-weight: 700;
 }
 .m-acc_text h5 {
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "Graphik";
-    text-transform: uppercase;
-    color: var(--var-dark);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Graphik";
+  text-transform: uppercase;
+  color: var(--var-dark);
 }
 .m-acc_text span {
   position: absolute;
@@ -442,7 +446,7 @@ border-radius: 10px;
 .m-acc_text p {
   font-size: 12px;
   font-weight: 400;
-  margin:1px;
+  margin: 1px;
   font-family: "Graphik";
   color: var(--var-darken);
 }
