@@ -300,7 +300,6 @@ footer {
   color: var(--var-dark);
   font-weight: 500;
   font-size: 16px;
-  
 }
 .btn-to_buy {
   background-color: var(--var-to_buy);
@@ -376,6 +375,9 @@ footer {
 .r-timer_live {
   text-transform: uppercase;
   font-size: 14px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: var(--var-dark);
   text-align: center;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -397,6 +399,41 @@ footer {
 .text-badge_live {
   text-transform: uppercase;
   font-size: 14px;
+}
+.live-push_auction {
+  width:525px;
+  margin-right: 69px;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius:10px;
+}
+.live-push_auction-timer_bottom{
+
+}
+.live-push_auction-timer_bottom span {
+  font-size: 14px;
+  text-align: center;
+  color: var(--var-darken);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.live-push_auction article h5 {
+  font-size: 14px;
+}
+.live-push_action-ranking {
+  width: 263px;
+  margin-right:37.999px;
+  background-color: #fff;
+}
+.live-push_auction-ranking  {
+  border-top: 1px solid var(--var-ligthen-gray);
+}
+.live-push_auction-timer_bottom .fa-heart{
+  color: var(--var-primary);
+}
+.live-push_auction-timer_bottom .fa-user {
+  color: #AC8EE3;
 }
 .badge_btn {
   font-family: "Graphik";

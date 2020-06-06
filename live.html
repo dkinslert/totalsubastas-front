@@ -1,395 +1,520 @@
 <!DOCTYPE html>
 <html>
-<!-- head -->
+  <!-- head -->
 
-<head>
-  <title>Getting Started</title>
-  <script src="https://unpkg.com/lodash@4.16.6"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/css/grid.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<!-- body -->
+  <head>
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <!-- body -->
 
-<body class="bg-light">
-  <!-- Header -->
-  <header>
-    <div class="navbar nav-top">
-      <div class="container d-flex ">
-        <ul class="nav justify-content-start ">
-          <li class="nav-item">
-            <a href="#" class="navbar-brand d-flex text-dark align-items-center">
-              (+51) 460-2000
-            </a>
-          </li>
-          <li class="nav-item mt-2 ml-2 ">
-            <a href="#" class="text-dark">
-              <i class="fab fa-whatsapp social-network_whatsapp"></i>
-              Chat en vivo
-            </a>
-          </li>
-        </ul>
-        <a href="./index.html" class="">
-          <strong>total</strong>
-        </a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item mr-4">
-            <a class="nav-link text-dark signin-text" href="./login.html">
-              Ingresar</a>
-          </li>
-          <li class="nav-item">
-            <a href="./registro.html" class="btn btn-primary rounded-pill "> <span></span><i
-                class="fas fa-user mr-2"></i>
-              Registrate </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- Navbar header bottom -->
-    <div class="navbar navbar-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center pl-5 mr-5" href="#"><img src="./assets/img/peru.png"
-            alt="" /></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <a href="./subastas.html" class="navbar-brand d-flex align-items-center">
-            Subastas
+  <body class="bg-light">
+    <!-- Header -->
+    <header>
+      <div class="navbar nav-top">
+        <div class="container d-flex">
+          <ul class="nav justify-content-start">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="navbar-brand d-flex text-dark align-items-center"
+              >
+                (+51) 460-2000
+              </a>
+            </li>
+            <li class="nav-item mt-2 ml-2">
+              <a href="#" class="text-dark">
+                <i class="fab fa-whatsapp social-network_whatsapp"></i>
+                Chat en vivo
+              </a>
+            </li>
+          </ul>
+          <a href="./index.html" class="">
+            <strong>total</strong>
           </a>
-          <a href="./FAQS.html" class="navbar-brand d-flex align-items-center">
-            Preguntas
-          </a>
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            Condiciones
-          </a>
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            Quienes somos
-          </a>
-          <!-- Link nav - Link nr° 5- top -->
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            Vender
-          </a>
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg class="bd-placeholder-img rounded-circle" width="25" height="25" xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-              aria-label="Completely round image: 75x75">
-              <title>Completely round image</title>
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="25%" y="25%" fill="#dee2e6" dy=".3em"></text>
-            </svg>
-          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item mr-4">
+              <a class="nav-link text-dark signin-text" href="./login.html">
+                Ingresar</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./registro.html" class="btn btn-primary rounded-pill">
+                <span></span><i class="fas fa-user mr-2"></i> Registrate
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- Grid columns slider custom-->
-  <div class="container">
-    <div class="row">
-      <!-- Navbar -->
-
-      <!-- End Navbar -->
-      <!-- main content -->
-      <div class="col-md col-md-12 mt-5">
-        <div class="row bg-dark text-light pt-4 pl-4 pr-4 pb-4" style="border-radius: 10px;">
-          <div class="col-md-3 col-sm-12">
-            <img src="./assets/img/image-077.png" width="240px" height="231" alt="">
+      <!-- Navbar header bottom -->
+      <div class="navbar navbar-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center pl-5 mr-5" href="#"
+            ><img src="./assets/img/peru.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <a
+              href="./subastas.html"
+              class="navbar-brand d-flex align-items-center"
+            >
+              Subastas
+            </a>
+            <a
+              href="./FAQS.html"
+              class="navbar-brand d-flex align-items-center"
+            >
+              Preguntas
+            </a>
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              Condiciones
+            </a>
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              Quienes somos
+            </a>
+            <!-- Link nav - Link nr° 5- top -->
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              Vender
+            </a>
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <svg
+                class="bd-placeholder-img rounded-circle"
+                width="25"
+                height="25"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                role="img"
+                aria-label="Completely round image: 75x75"
+              >
+                <title>Completely round image</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect>
+                <text x="25%" y="25%" fill="#dee2e6" dy=".3em"></text>
+              </svg>
+            </a>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <h1 class="ml-2">MAZDA 3</h1>
-            <p class="ml-2">2003</p>
-           
+        </div>
+      </div>
+    </header>
+    <!-- Grid columns slider custom-->
+    <div class="container">
+      <div class="row">
+        <!-- Navbar -->
+
+        <!-- End Navbar -->
+        <!-- main content -->
+        <div class="col-md col-md-12 mt-5">
+          <div
+            class="row bg-dark text-light pt-4 pl-4 pr-4 pb-4"
+            style="border-radius: 10px;"
+          >
+            <div class="col-md-3 col-sm-12">
+              <img
+                src="./assets/img/image-077.png"
+                width="240px"
+                height="231"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <h1 class="ml-2">MAZDA 3</h1>
+              <p class="ml-2">2003</p>
+
               <!--  -->
               <div class="col-md-9 pd-0 m-0 pl-4">
                 <!--  -->
-                <div class="row row-cols-4 ">
-                  <div class="col-12 col-md-3 col-sm-12 col-xs-12 text-light p-0 m-0 text-s_gd-sheet">
+                <div class="row row-cols-4">
+                  <div
+                    class="col-12 col-md-3 col-sm-12 col-xs-12 text-light p-0 m-0 text-s_gd-sheet"
+                  >
                     Garantia
                   </div>
                   <div class="col-12 col-md-3 col-sm-12 col-xs-12">
-                    <button class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text m-0">$ 150</button>
+                    <button
+                      class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text m-0"
+                    >
+                      $ 150
+                    </button>
                   </div>
-                  <div class="col-12 col-md-3 col-sm-12 text-light col-xs-12 text-s_gd-sheet">
+                  <div
+                    class="col-12 col-md-3 col-sm-12 text-light col-xs-12 text-s_gd-sheet"
+                  >
                     Ganador actual
                   </div>
-                  <div class="col-12 col-md-3 col-sm-12 col-xs-12 ">
-                    <button class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text "> JAV193 </button>
+                  <div class="col-12 col-md-3 col-sm-12 col-xs-12">
+                    <button
+                      class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text"
+                    >
+                      JAV193
+                    </button>
                   </div>
                 </div>
                 <!--  -->
                 <div class="row row-cols-4 mt-2">
-                  <div class="col-12 col-md-3 col-sm-12 text-light col-xs-12 text-s_gd-sheet">
+                  <div
+                    class="col-12 col-md-3 col-sm-12 text-light col-xs-12 text-s_gd-sheet"
+                  >
                     comision
                   </div>
                   <div class="col-12 col-md-3 col-sm-12 col-xs-12">
-                    <button class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text "> 5 %</button>
+                    <button
+                      class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text"
+                    >
+                      5 %
+                    </button>
                   </div>
-                  <div class="col-12 col-md-3 col-sm-12 col-xs-12 text-light text-s_gd-sheet">
+                  <div
+                    class="col-12 col-md-3 col-sm-12 col-xs-12 text-light text-s_gd-sheet"
+                  >
                     Tipo subasta
                   </div>
                   <div class="col-12 col-md-3 col-sm-12 col-xs-12">
-                    <button class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text"> subasta </button>
+                    <button
+                      class="btn btn-block btn-outline-dark text-light btn-outline-light_b data_sheet-d_sm-text"
+                    >
+                      subasta
+                    </button>
                   </div>
                 </div>
                 <div class="row-cols-2">
-                  <div class="col">
+                  <div class="col"></div>
+                </div>
 
+                <div class="row">
+                  <div class="row pt-3 row-cols pl-3">
+                    <figure>
+                      <svg
+                        class="bd-placeholder-img rounded-sm"
+                        width="36"
+                        height="36"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice"
+                        focusable="false"
+                        role="img"
+                        aria-label="Example small rounded image: 36x36"
+                      >
+                        <title>Example small rounded image</title>
+                        <rect width="100%" height="100%" fill="#ffd980"></rect>
+                        <text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text>
+                      </svg>
+                      <span class="ml-2">concedido por rimac seguro</span>
+                      <h5 class="pt-2">AKY-540</h5>
+                    </figure>
                   </div>
                 </div>
-              
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
               <div class="row">
-                <div class="row pt-3 row-cols pl-3">
-                  <figure>
-                    <svg class="bd-placeholder-img rounded-sm" width="36" height="36" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Example small rounded image: 36x36">
-                      <title>Example small rounded image</title>
-                      <rect width="100%" height="100%" fill="#ffd980"></rect>
-                      <text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text>
-                    </svg>
-                    <span class="ml-2">concedido por rimac seguro</span>
-                    <h5 class="pt-2">AKY-540</h5>
-                  </figure>
-
+                <div class="col-6 col-md-6 col-sm-12">
+                  <h5>
+                    <span> INICIO <br /></span>
+                    <span> 7 : 15 pm</span>
+                  </h5>
+                </div>
+                <div class="col-6 col-md-6 col-sm-12">
+                  <h3>
+                    JAV1019
+                  </h3>
+                </div>
+                <div class="col-12">
+                  <span class="text-badge_live"> se lleva alexis a </span>
+                  <span class="ml-3 pl-3 badge_live"> $ 12 700</span>
+                </div>
+                <div class="col">
+                  <span class="text-badge_live"> en 00:04 </span>
+                </div>
+                <div class="col">
+                  <div class="progress rounded-pill">
+                    <div
+                      class="progress-bar data_sheet-live_bg-progress_bar w-75"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col mt-5">
+                  <button
+                    class="btn btn-primary btn-block btn-lg rounded-pill badge_btn"
+                  >
+                    $ 12 800
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-12">
-            <div class="row">
-              
-              <div class="col-6 col-md-6 col-sm-12">
-                <h5>
-                  <span>  INICIO <br></span>
-                  <span> 7 : 15 pm</span>
-                </h5>
-              </div>
-              <div class="col-6 col-md-6 col-sm-12">
-                <h3>
-                  JAV1019
-                </h3>
-              </div>
-              <div class="col-12">
-              <span class="text-badge_live"> se lleva alexis a </span> <span class="ml-3 pl-3  badge_live"> $ 12 700</span>
-              </div>
-              <div class="col">
-               <span class="text-badge_live"> en 00:04 </span>
-              </div>
-              <div class="col">
-                <div class="progress rounded-pill ">
-                  <div class="progress-bar data_sheet-live_bg-progress_bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
+
+          <div class="col-sm-3">
+            <img src="" alt="" />
           </div>
+        </div>
+
+        <div class="col-md-12">
           <div class="row">
-            <div class="col mt-5">
-              <button class="btn btn-primary btn-block btn-lg rounded-pill badge_btn ">$ 12 800</button>
-            </div>
-          </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <img src="" alt="">
-        </div>
-      </div>
-
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="border">
-
-            </div>
-            <div class="card" >
-              <div class="card-body ">
-                <h5 class="card-title text-uppercase r-timer_live border-bottom">Subasta en vivo</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <div class="row ">
-                  <div class="col">
-                    <div>
-                      <i class="fas fa-heart"> </i>
-                    <span class="d-block">
-                        Me gustan
-                    </span>
-                    </div>
-                  </div>
-                  <div class="col"> 
-                    <div>
-                      <i class="fas "> </i>
-                    <span class="d-block">
-                        Ofertas
-                    </span>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <i class="fas fa-user"> </i>
-                    <span class="d-block">
-                       Participantes
-                    </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 bg-dark ml-2 mr-2">
-
-          </div>
-          <div class="col-md-2">
-            <h2 class="text-right text-lighten ">Ranking</h2>
-            <table class="table border-top">
-              <thead >
-                <tr class="table-borderless">
-                  <th scope="col">Puesto</th>
-                  <th scope="col">Usuario</th>
-                  <th scope="col">Oferta</th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      <!-- Btn -- load more items -->
-
-      <!-- Widgets -->
-      <div class="col-md col-12 pt-5 img-focus col-sm-6 col-xs-12 widgets">
-        <article>
-          <h2 class="ml-5">Credito vehicular</h2>
-          <p class="ml-5">
-            Te ofrecemos asesoria especializada, si eres cliente de totalsubastas contactanos
-          </p>
-          <img src="./assets/img/image-368.png" alt="">
-          <button class="btn btn-primary rounded-pill mb-5 mr-5 pt-1 pb-1 pr-5 pl-4 border-0">
-            Aqu&iacute;
-            <!-- font icon-->
-          </button>
-        </article>
-      </div>
-      <div class="col-md col-12 pt-5 img-focus col-sm-6 col-xs-12 widgets">
-        <article>
-          <h2 class="ml-5">Asesoria legal?</h2>
-          <p class="ml-5">
-            Te ofrecemos asesoria especializada, si eres cliente de totalsubastas contactanos
-          </p>
-          <img src="./assets/img/image-368-1.png" alt="">
-          <button class="btn btn-primary rounded-pill mb-5 mr-5 pt-1 pb-1 pr-5 pl-4 border-0">
-            Aqu&iacute;
-            <!-- font icon-->
-            <i class="fa fa"></i>
-          </button>
-        </article>
-      </div>
-      <!--Footer-->
-      <footer>
-        <div class="row">
-          <div class="col-sm col-8 pt-5 col-md-8 align-self-center col-sm-12 col-xs-12 mb-2 mt-5 ml-sm-auto">
-            <article>
-              <div class="input-group col-md-8 offset-md-6 ">
-                <input type="text" class="form-control" placeholder="Ingresa tu correo para alerta de oportunidades!"
-                  aria-label="Ingresa tu correo para alerta de oportunidades!" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                  <span class="input-group-text rss-send_email" id="basic-addon2">
-                    <i class="fas fa-paper-plane"></i>
-                  </span>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- Social Networks -->
-          <div class="col-sm col-md-4 ml-md-auto col-4 pt-5 col-sm-12 col-xs-12 mb-2 mt-5">
-            <article>
-              <article class="social-network_bottom">
-                <ul class="nav justify-content-end m-3 ">
-                  <li class="nav-item"><a href=""><i class="fab fa-facebook"></i></a></li>
-                  <li class="nav-item "><a href=""><i class="fab fa-twitter"></i></a></li>
-                  <li class="nav-item"><a href=""><i class="fab fa-instagram"></i></a></li>
-                </ul>
+            <div
+              class="col-12  pl-0 pr-0 col-md-3 col-sm-12 col-xs-12 live-push_action-ranking"
+            >
+              <article class="border-bottom">
+                <h5 class="text-uppercase r-timer_live">Subasta en vivo</h5>
               </article>
-            </article>
+              <div class="row">
+                <div class="col-12  pt-5 pb-5">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo est similique doloremque eligendi quibusdam dicta et aspernatur odio, commodi hic nulla eum praesentium dolor nobis! Architecto corrupti magnam ad natus?</p>
+                </div>
+                
+                <div class="col live-push_auction-timer_bottom">
+                  <div>
+                    <i class="fas fa-heart"> </i>
+                    <span class="d-block">
+                      Me gustan
+                    </span>
+                  </div>
+                </div>
+                <div class="col live-push_auction-timer_bottom">
+                  <div>
+                    <i class="fas"> </i>
+                    <span class="d-block">
+                      Ofertas
+                    </span>
+                  </div>
+                </div>
+                <div class="col live-push_auction-timer_bottom">
+                  <div>
+                    <i class="fas fa-user"> </i>
+                    <span class="d-block">
+                      Participantes
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 bg-dark live-push_auction ml-2 mr-2"></div>
+            <div class="col-md-2">
+              <h2 class="text-right text-lighten">Ranking</h2>
+              <table class="table border-top">
+                <thead>
+                  <tr class="table-borderless">
+                    <th scope="col">Puesto</th>
+                    <th scope="col">Usuario</th>
+                    <th scope="col">Oferta</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <!-- Bottom footer -->
-        <div class="navbar nav-footer shadow-sm pt-5 pb-5">
-          <div class="container d-flex justify-content-between ">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Subastas</span>
-            </a>
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Preguntas</span>
-            </a>
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Condiciones</span>
-            </a>
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Quienes somos</span>
-            </a>
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Vender</span>
-            </a>
-          </div>
-        </div>
-        <!--Footer navbar-->
-        <nav class="navbar navbar-expand-lg d-flex justify-content-around pt-5 pb-5">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                <span class="copyright">&copy;</span> <span class="ml-2 copyright">2020 Totalsubastas </span> <span
-                  class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">whatsapp</a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">Asesoria legal</a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">Cont&aacute;ctenos</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0 mr-5 social-network_footer">
-            total
-          </form>
-        </nav>
-      </footer>
-      <!-- end footer -->
-    </div>
-    <!-- end row -->
-  </div>
-  <!-- end container -->
-  <script src="./src/index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <script src="./assets/js/app.js"></script>
-</body>
+        <!-- Btn -- load more items -->
 
+        <!-- Widgets -->
+        <div class="col-md col-12 pt-5 img-focus col-sm-6 col-xs-12 widgets">
+          <article>
+            <h2 class="ml-5">Credito vehicular</h2>
+            <p class="ml-5">
+              Te ofrecemos asesoria especializada, si eres cliente de
+              totalsubastas contactanos
+            </p>
+            <img src="./assets/img/image-368.png" alt="" />
+            <button
+              class="btn btn-primary rounded-pill mb-5 mr-5 pt-1 pb-1 pr-5 pl-4 border-0"
+            >
+              Aqu&iacute;
+              <!-- font icon-->
+            </button>
+          </article>
+        </div>
+        <div class="col-md col-12 pt-5 img-focus col-sm-6 col-xs-12 widgets">
+          <article>
+            <h2 class="ml-5">Asesoria legal?</h2>
+            <p class="ml-5">
+              Te ofrecemos asesoria especializada, si eres cliente de
+              totalsubastas contactanos
+            </p>
+            <img src="./assets/img/image-368-1.png" alt="" />
+            <button
+              class="btn btn-primary rounded-pill mb-5 mr-5 pt-1 pb-1 pr-5 pl-4 border-0"
+            >
+              Aqu&iacute;
+              <!-- font icon-->
+              <i class="fa fa"></i>
+            </button>
+          </article>
+        </div>
+        <!--Footer-->
+        <footer>
+          <div class="row">
+            <div
+              class="col-sm col-8 pt-5 col-md-8 align-self-center col-sm-12 col-xs-12 mb-2 mt-5 ml-sm-auto"
+            >
+              <article>
+                <div class="input-group col-md-8 offset-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Ingresa tu correo para alerta de oportunidades!"
+                    aria-label="Ingresa tu correo para alerta de oportunidades!"
+                    aria-describedby="basic-addon2"
+                  />
+                  <div class="input-group-append">
+                    <span
+                      class="input-group-text rss-send_email"
+                      id="basic-addon2"
+                    >
+                      <i class="fas fa-paper-plane"></i>
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- Social Networks -->
+            <div
+              class="col-sm col-md-4 ml-md-auto col-4 pt-5 col-sm-12 col-xs-12 mb-2 mt-5"
+            >
+              <article>
+                <article class="social-network_bottom">
+                  <ul class="nav justify-content-end m-3">
+                    <li class="nav-item">
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
+                </article>
+              </article>
+            </div>
+          </div>
+          <!-- Bottom footer -->
+          <div class="navbar nav-footer shadow-sm pt-5 pb-5">
+            <div class="container d-flex justify-content-between">
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <span>Subastas</span>
+              </a>
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <span>Preguntas</span>
+              </a>
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <span>Condiciones</span>
+              </a>
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <span>Quienes somos</span>
+              </a>
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <span>Vender</span>
+              </a>
+            </div>
+          </div>
+          <!--Footer navbar-->
+          <nav
+            class="navbar navbar-expand-lg d-flex justify-content-around pt-5 pb-5"
+          >
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  <span class="copyright">&copy;</span>
+                  <span class="ml-2 copyright">2020 Totalsubastas </span>
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >whatsapp</a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Asesoria legal</a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Cont&aacute;ctenos</a
+                >
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 mr-5 social-network_footer">
+              total
+            </form>
+          </nav>
+        </footer>
+        <!-- end footer -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+    <script src="./src/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
