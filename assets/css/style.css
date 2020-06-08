@@ -402,6 +402,7 @@ footer {
 /* Datasheet */
 .data_sheet-d {
 }
+
 .r-timer_live {
   text-transform: uppercase;
   font-size: 14px;
@@ -438,6 +439,26 @@ footer {
   padding-bottom: 20px;
   border-radius: 10px;
 }
+.live-raking_auction {
+  width: 263px;
+  height: 366px;
+  background-color: #FFF;
+}
+.live-ranking_auction h2 {
+  color: var(--var-darken);
+  text-transform: uppercase;
+}
+.live-ranking_auction-t {
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--var-dark);
+  text-align: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
 .live-push_auction-timer_bottom {
 }
 .live-push_auction-timer_bottom span {
@@ -458,6 +479,9 @@ footer {
 }
 .live-push_auction-ranking {
   border-top: 1px solid var(--var-ligthen-gray);
+}
+#ranking {
+  overflow: scroll;
 }
 .live-push_auction-timer_bottom .fa-heart {
   color: var(--var-primary);
