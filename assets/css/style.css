@@ -16,6 +16,7 @@
   --var-nav-top: #ffffff;
   --var-whatsapp: #3dc47e;
   --var-carousel-text: #656b70;
+  --var-data-shett_files-text: #C1F4F5;
   --var-darken: #4b5157;
   --var-dark: #262d33;
   --var-darken_light: #edeff0;
@@ -187,6 +188,13 @@ footer {
   height: 120px;
   animation: spin 2s linear infinite;
 }
+.data_sheet-bottom_files {
+  background-color:var(--var-to_buy);
+  border-radius: 10px;
+  max-width: 263px;
+  max-height: 170px;
+  font-size: 14px;
+}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -295,6 +303,14 @@ footer {
   opacity: 0.9;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+.text-doc_data-sheet {
+  font-family: "graphik";
+  font-weight: 100;
+  opacity: 0.9;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: var(--var-data-shett_files-text);
 }
 .badge-button_count_slide {
   font-family: "graphik";
@@ -582,8 +598,12 @@ footer {
   .mc-card_top {
     width: 100%;
   }
+ 
+  
 }
-
+@media (max-width: 768px){
+ 
+}
 /* */
 .text-darken {
   color: var(--var-darken);

@@ -1,3 +1,8 @@
+:root { 
+  --var-to_buy: #3dc47e;
+  --var-carousel-item: #ffd980;
+  --var-primary: #4592ff;
+}
 .top-slide {
   width: 100%;
   display: grid;
