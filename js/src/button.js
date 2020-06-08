@@ -168,6 +168,7 @@ $(window).on(EVENT_LOAD_DATA_API, () => {
   // ensure correct active class is set to match the controls' actual values/states
 
   // find all checkboxes/readio buttons inside data-toggle groups
+  
   let buttons = [].slice.call(document.querySelectorAll(SELECTOR_DATA_TOGGLES_BUTTONS))
   for (let i = 0, len = buttons.length; i < len; i++) {
     const button = buttons[i]
