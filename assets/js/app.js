@@ -19,7 +19,20 @@ $( document ).ready(function () {
             x.type = "password";
         }
     })
-        
+    $('#loadMore').on('click', function(e){
+      
+    })
+    $('.carousel-indicators li').click( function(){
+        $('.carousel-indicators li').removeClass('active');
+        $('.carousel-indicators li').removeClass('spinner-border spinner-border-sm');
+            var $this = $(this);
+            if (!$this.hasClass('active')) {
+                
+                $(this).addClass('spinner-border spinner-border-sm');
+            }
+           
+    })
+    
 });
 
 
