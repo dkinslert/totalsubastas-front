@@ -690,7 +690,7 @@ footer {
 .img-focus {
 }
 .a {
-  background-color: var(--var-dark);
+ /* background-color: var(--var-dark); */ 
 }
 
 @media (min-width: 499px) {
