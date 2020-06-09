@@ -591,6 +591,24 @@ footer {
   font-family: "Graphik";
   color: var(--var-darken);
 }
+.m-acc_points {
+  background-color:#3DC47E; color: #FFF; border-radius: 14px;
+}
+.m-acc_char {
+  color:#FFF; font-size: 25px; font-family:'Graphik'; font-weight:700; text-align: 'center';
+}
+.m-acc_points-bottom {
+  color:#D0F7C6; font-family: 'Graphik'; font-size: 14px;
+}
+.m-acc_points-bottom::before {
+  content: "\f111";
+  font-family: "Font Awesome\ 5 Free";
+  color: var(--var-carousel-item);
+  margin-right: 9px;
+}
+.m-acc_points-bottom p {
+  color: #FFF; font-size: 18px; font-weight: 600;
+}
 /* Register Form */
 .t-rform_top h1 {
   font-family: "Graphik";
