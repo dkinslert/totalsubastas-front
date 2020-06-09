@@ -39,6 +39,7 @@ footer {
   height: auto;
   background-color: var(--var-footer);
 }
+
 /* Nav  */
 .navbar {
   width: 100%;
@@ -83,6 +84,10 @@ footer {
 }
 .nav-footer a {
   color: var(--var-darken);
+  font-size: 14px;
+  font-family: "Graphik";
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 /* nav main content */
 .nav-top_main-content {
@@ -644,6 +649,7 @@ footer {
 }
 .widgets article h1 p {
 }
+
 .text-shadow {
 }
 .img-focus {
