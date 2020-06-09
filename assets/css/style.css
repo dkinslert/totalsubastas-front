@@ -16,7 +16,7 @@
   --var-nav-top: #ffffff;
   --var-whatsapp: #3dc47e;
   --var-carousel-text: #656b70;
-  --var-data-shett_files-text: #C1F4F5;
+  --var-data-shett_files-text: #c1f4f5;
   --var-darken: #4b5157;
   --var-dark: #262d33;
   --var-darken_light: #edeff0;
@@ -25,7 +25,7 @@
   --var-badge-sea: #c5e4fc;
   --var-light-gray: var(--var-lighthen-gray);
   --var-badge-sea_text: #55839e;
-  --var-to_aution-on-ranking: #1DAB5F;
+  --var-to_aution-on-ranking: #1dab5f;
   --var-carousel-item: #ffd980;
   --var-progress-bar: var(--var-carousel-item);
 }
@@ -191,22 +191,26 @@ footer {
 }
 .carousel-indicators_loading {
   border: 1px solid #f3f3f3; /* Light grey */
- /*  border-top: 1px solid #3498db; Blue */
+  /*  border-top: 1px solid #3498db; Blue */
   border-radius: 50%;
   /*width: 120px;*/
   height: 120px;
   animation: spin 2s linear infinite;
 }
 .data_sheet-bottom_files {
-  background-color:var(--var-to_buy);
+  background-color: var(--var-to_buy);
   border-radius: 10px;
   max-width: 263px;
   max-height: 170px;
   font-size: 14px;
 }
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .top-slide_carousel-item-b {
 }
@@ -481,7 +485,7 @@ footer {
 .live-raking_auction {
   /*width: 263px;*/
   height: 366px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .live-ranking_auction h2 {
   color: var(--var-darken);
@@ -504,7 +508,7 @@ footer {
   font-size: 14px;
   text-align: center;
   color: var(--var-darken);
- /* padding-top: 20px;
+  /* padding-top: 20px;
   padding-bottom: 20px; */
 }
 .live-push_auction article h5 {
@@ -517,7 +521,7 @@ footer {
   border-radius: 10px;
 }
 .live-push_action-floating {
-  width:100%;
+  width: 100%;
 }
 .live-push_auction-ranking {
   border-top: 1px solid var(--var-ligthen-gray);
@@ -592,13 +596,21 @@ footer {
   color: var(--var-darken);
 }
 .m-acc_points {
-  background-color:#3DC47E; color: #FFF; border-radius: 14px;
+  background-color: #3dc47e;
+  color: #fff;
+  border-radius: 14px;
 }
 .m-acc_char {
-  color:#FFF; font-size: 25px; font-family:'Graphik'; font-weight:700; text-align: 'center';
+  color: #fff;
+  font-size: 25px;
+  font-family: "Graphik";
+  font-weight: 700;
+  text-align: "center";
 }
 .m-acc_points-bottom {
-  color:#D0F7C6; font-family: 'Graphik'; font-size: 14px;
+  color: #d0f7c6;
+  font-family: "Graphik";
+  font-size: 14px;
 }
 .m-acc_points-bottom::before {
   content: "\f111";
@@ -607,7 +619,9 @@ footer {
   margin-right: 9px;
 }
 .m-acc_points-bottom p {
-  color: #FFF; font-size: 18px; font-weight: 600;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
 }
 /* Register Form */
 .t-rform_top h1 {
@@ -683,11 +697,8 @@ footer {
   .mc-card_top {
     width: 100%;
   }
- 
-  
 }
-@media (min-width: 989px){
-
+@media (min-width: 989px) {
 }
 /* */
 .text-darken {
