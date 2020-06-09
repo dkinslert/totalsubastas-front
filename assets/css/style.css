@@ -25,6 +25,7 @@
   --var-badge-sea: #c5e4fc;
   --var-light-gray: var(--var-lighthen-gray);
   --var-badge-sea_text: #55839e;
+  --var-to_aution-on-ranking: #1DAB5F;
   --var-carousel-item: #ffd980;
   --var-progress-bar: var(--var-carousel-item);
 }
@@ -414,6 +415,36 @@ footer {
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 10px;
 }
+.ranking_live {
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--var-dark);
+  text-align: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
+.ranking_to-auction_text {
+  font-family: "Graphik";
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.text-_to-auction_bottom {
+  font-family: "Graphik";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.text-to_title-auction_ranking {
+  font-family: "Graphik";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--var-darken);
+  font-weight: 600;
+}
 .r-timer_live::before {
   content: "\f111";
   font-family: "Font Awesome\ 5 Free";
@@ -465,8 +496,8 @@ footer {
   font-size: 14px;
   text-align: center;
   color: var(--var-darken);
-  padding-top: 20px;
-  padding-bottom: 20px;
+ /* padding-top: 20px;
+  padding-bottom: 20px; */
 }
 .live-push_auction article h5 {
   font-size: 14px;
@@ -625,8 +656,8 @@ footer {
  
   
 }
-@media (max-width: 768px){
- 
+@media (min-width: 989px){
+
 }
 /* */
 .text-darken {
@@ -637,6 +668,9 @@ footer {
 }
 .text-light_dark {
   color: var(--var-lighthen-gray-tex);
+}
+.text-to_best-auction {
+  color: var(--var-to_aution-on-ranking);
 }
 .bg-darken {
   background-color: var(--var-darken);
