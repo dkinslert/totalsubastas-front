@@ -508,6 +508,9 @@ footer {
   background-color: #fff;
   border-radius: 10px;
 }
+.live-push_action-floating {
+  width:100%;
+}
 .live-push_auction-ranking {
   border-top: 1px solid var(--var-ligthen-gray);
 }
