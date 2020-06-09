@@ -596,7 +596,7 @@ footer {
   color: var(--var-darken);
 }
 .m-acc_points {
-  background-color: #3dc47e;
+  background-color: var(--var-to_buy);
   color: #fff;
   border-radius: 14px;
 }
