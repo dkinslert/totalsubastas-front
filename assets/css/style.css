@@ -155,18 +155,23 @@ footer {
   background-color: var(--var-nav-top);
   border-radius: 10px;
 }
-.p-side_nav article  {
-  position:absolute;
-  justify-content: center;
-  align-content:center;
-  
+.side-nav img {
+  border-radius: 10px;
+}
+article.p-side_nav {
+  text-align: center;
+  margin-top: 102px;
+  margin-left: 50px;
+  position: absolute;
+  font-family: "Graphik";
+}
+article.p-side_nav h2 {
+  font-size: 55px;
+  font-weight: 700;
 }
 .p-side_nav article p {
-  
-  
 }
-.p-side_nav article img{
-  
+.p-side_nav article img {
 }
 .pub-item_cont {
   border: 0;
