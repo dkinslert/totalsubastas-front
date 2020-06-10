@@ -155,6 +155,9 @@ footer {
   background-color: var(--var-nav-top);
   border-radius: 10px;
 }
+.pub-item_cont {
+  border: 0;
+}
 .text-fh_nav {
   font-size: 14px;
   color: var(--var-dark);
