@@ -158,6 +158,18 @@ footer {
 .side-nav img {
   border-radius: 10px;
 }
+.side-nav {
+  border-radius: 10px;
+}
+.card.side-nav a{
+  text-decoration: none;
+}
+.car-side-nav_title {
+  font-size: 14px;
+  color: var(--var-dark);
+  font-weight: 600;
+  text-transform: uppercase;
+}
 article.p-side_nav {
   text-align: center;
   margin-top: 102px;
