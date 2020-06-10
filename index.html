@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <!-- body -->
+
 <body class="bg-darken-light">
   <!-- Header -->
   <header>
@@ -196,8 +197,8 @@
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <div class="dropdown mr-4">
-                  <button class="btn  dropdown-toggle text-fh_nav" type="button" id="dropdownMenu" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                  <button class="btn  dropdown-toggle text-fh_nav" type="button" id="dropdownMenu"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Filtros <span class="badge badge-sea">4</span>
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu">
@@ -207,8 +208,8 @@
                   </div>
                 </div>
                 <div class="dropdown">
-                  <button class="btn  dropdown-toggle text-fh_nav" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                  <button class="btn  dropdown-toggle text-fh_nav" type="button" id="dropdownMenu2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Ordenar por
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -223,214 +224,272 @@
         </div>
       </div>
       <!-- End Navbar -->
-      <div class="row main-container rounded pb-4">
-        <!-- nav -->
-        <div class="col-md col-md-12 mb-3">
-          <nav class="navbar navbar-expand-lg nav-top_main-content mb-2 border-bottom">
-            <a class="navbar-brand text-darken" href="#">Banco fallabella S.A.C</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              </ul>
-              <h2 class="form-inline my-2 my-lg-0 pt-4 pb-4 text-light_darken title-light_darken">
-                <i class="fas fa-clock nav-content_text"></i>
-                <span class="ml-3"> Mayo 29,7:12 pm</span>
-              </h2>
-              <article class="ml-3">
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <label class="btn btn-light active">
-                    <i class="fas fa-caret-left"></i>
-                  </label>
-                  <label class="btn btn-light">
-                    <i class="fas fa-caret-right"></i>
-                  </label>
-                </div>
-              </article>
+      <div class="row  rounded pb-4">
+        <div class="col-md-3 order-md-1 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Your cart</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Product name</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Second product</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Third item</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Promo code</h6>
+                <small>EXAMPLECODE</small>
+              </div>
+              <span class="text-success">-$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong>$20</strong>
+            </li>
+          </ul>
+
+          <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Promo code">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary">Redeem</button>
+              </div>
             </div>
-          </nav>
+          </form>
         </div>
-        <!-- main content -- nr° 1-->
-        <div class="col-md-4 col-sm-6 border-right col-xs-12">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
-              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-              aria-label="Placeholder: Thumbnail">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-            <div class="card-body justify-content-center">
-              <p class="card-text text-center text-to_auction"><strong>Subasta</strong><i class="fas fa-bell ml-2"></i>
-              </p>
-              <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
-              <div class=" align-items-center">
-                <div class="btn-group d-flex justify-content-center">
-                  <button type="button" class="btn btn-sm btn-to_auction rounded-pill text-light"><strong><span
-                        class="mr-2">$</span>3500 </strong></button>
+
+        <div class="col-md-9  order-md-2">
+          <div class="row main-container">
+            <!-- nav -->
+            <div class="col-md col-md-12 mb-3  ">
+              <nav class="navbar navbar-expand-lg nav-top_main-content mb-2 border-bottom">
+                <a class="navbar-brand text-darken" href="#">Banco fallabella S.A.C</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  </ul>
+                  <h2 class="form-inline my-2 my-lg-0 pt-4 pb-4 text-light_darken title-light_darken">
+                    <i class="fas fa-clock nav-content_text"></i>
+                    <span class="ml-3"> Mayo 29,7:12 pm</span>
+                  </h2>
+                  <article class="ml-3">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-light active">
+                        <i class="fas fa-caret-left"></i>
+                      </label>
+                      <label class="btn btn-light">
+                        <i class="fas fa-caret-right"></i>
+                      </label>
+                    </div>
+                  </article>
                 </div>
-                <small class="text-muted">9 mins</small>
+              </nav>
+            </div>
+            <!-- main content -- nr° 1-->
+            <div class="col-md-4 col-sm-6 border-right col-xs-12">
+              <div class="card mb-4 pub-item_cont">
+                <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                  aria-label="Placeholder: Thumbnail">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em"></text>
+                </svg>
+                <div class="card-body justify-content-center">
+                  <p class="card-text text-center text-to_auction"><strong>Subasta</strong><i
+                      class="fas fa-bell ml-2"></i>
+                  </p>
+                  <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
+                  <div class=" align-items-center">
+                    <div class="btn-group d-flex justify-content-center">
+                      <button type="button" class="btn btn-sm btn-to_auction rounded-pill text-light"><strong><span
+                            class="mr-2">$</span>3500 </strong></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 border-right col-sm-6 col  col-xs-12">
+              <div class="card mb-4 pub-item_cont">
+                <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                  aria-label="Placeholder: Thumbnail">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em"></text>
+                </svg>
+                <div class="card-body justify-content-center">
+                  <p class="card-text text-center text-to_buy"><strong>comprar ya</strong> <i
+                      class="fas fa-shopping-cart ml-2"></i></p>
+                  <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
+                  <div class=" align-items-center">
+                    <div class="btn-group d-flex justify-content-center">
+                      <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
+                            class="mr-2">$</span>3500 </strong></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <div class="card mb-4 pub-item_cont ">
+                <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                  aria-label="Placeholder: Thumbnail">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em"></text>
+                </svg>
+                <div class="card-body justify-content-center">
+                  <p class="card-text text-center text-to_buy"><strong>comprar ya</strong><i
+                      class="fas fa-shopping-cart ml-2"></i></p>
+                  <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
+                  <div class=" align-items-center">
+                    <div class="btn-group d-flex justify-content-center">
+                      <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
+                            class="mr-2">$</span>3500 </strong></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 border-right col-sm-6 col  col-xs-12" >
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
-              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-              aria-label="Placeholder: Thumbnail">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-            <div class="card-body justify-content-center">
-              <p class="card-text text-center text-to_buy"><strong>comprar ya</strong> <i
-                  class="fas fa-shopping-cart ml-2"></i></p>
-              <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
-              <div class=" align-items-center">
-                <div class="btn-group d-flex justify-content-center">
-                  <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
-                        class="mr-2">$</span>3500 </strong></button>
+          <!-- end first container -->
+          <div class="row main-container mt-5">
+            <!-- nav -->
+            <div class="col-md col-md-12 mb-3  ">
+              <nav class="navbar navbar-expand-lg nav-top_main-content mb-2 border-bottom">
+                <a class="navbar-brand text-darken" href="#">Banco fallabella S.A.C</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  </ul>
+                  <h2 class="form-inline my-2 my-lg-0 pt-4 pb-4 text-light_darken title-light_darken">
+                    <i class="fas fa-clock nav-content_text"></i>
+                    <span class="ml-3"> Mayo 29,7:12 pm</span>
+                  </h2>
+                  <article class="ml-3">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-light active">
+                        <i class="fas fa-caret-left"></i>
+                      </label>
+                      <label class="btn btn-light">
+                        <i class="fas fa-caret-right"></i>
+                      </label>
+                    </div>
+                  </article>
                 </div>
-                <small class="text-muted">9 mins</small>
+              </nav>
+            </div>
+            <!-- main content -- nr° 2-->
+            <div class="col-md-4 col-sm-6 border-right col-xs-12">
+              <div class="card mb-4 pub-item_cont">
+                <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                  aria-label="Placeholder: Thumbnail">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em"></text>
+                </svg>
+                <div class="card-body justify-content-center">
+                  <p class="card-text text-center text-to_auction"><strong>Subasta</strong><i
+                      class="fas fa-bell ml-2"></i>
+                  </p>
+                  <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
+                  <div class=" align-items-center">
+                    <div class="btn-group d-flex justify-content-center">
+                      <button type="button" class="btn btn-sm btn-to_auction rounded-pill text-light"><strong><span
+                            class="mr-2">$</span>3500 </strong></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 border-right col-sm-6 col  col-xs-12">
+              <div class="card mb-4 pub-item_cont">
+                <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                  aria-label="Placeholder: Thumbnail">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em"></text>
+                </svg>
+                <div class="card-body justify-content-center">
+                  <p class="card-text text-center text-to_buy"><strong>comprar ya</strong> <i
+                      class="fas fa-shopping-cart ml-2"></i></p>
+                  <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
+                  <div class=" align-items-center">
+                    <div class="btn-group d-flex justify-content-center">
+                      <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
+                            class="mr-2">$</span>3500 </strong></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <div class="card mb-4 pub-item_cont ">
+                <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                  aria-label="Placeholder: Thumbnail">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em"></text>
+                </svg>
+                <div class="card-body justify-content-center">
+                  <p class="card-text text-center text-to_buy"><strong>comprar ya</strong><i
+                      class="fas fa-shopping-cart ml-2"></i></p>
+                  <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
+                  <div class=" align-items-center">
+                    <div class="btn-group d-flex justify-content-center">
+                      <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
+                            class="mr-2">$</span>3500 </strong></button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 " >
-          <div class="card mb-4 shadow-sm ">
-            <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
-              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-              aria-label="Placeholder: Thumbnail">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-            <div class="card-body justify-content-center">
-              <p class="card-text text-center text-to_buy"><strong>comprar ya</strong><i
-                  class="fas fa-shopping-cart ml-2"></i></p>
-              <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
-              <div class=" align-items-center">
-                <div class="btn-group d-flex justify-content-center">
-                  <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
-                        class="mr-2">$</span>3500 </strong></button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
+          <div class="col-12 mt-5">
+            <nav aria-label="breadcrumb">
+              <button type="button" id="btn-load_more loadMore"
+                class="btn bg- rounded-pill expanded btn-block pt-3 pb-3 border font-weight-bold text-light_dark"> <span
+                  class="spinner-border spinner-border-sm mr-4" role="status" aria-hidden="true"></span>Load
+                more</button>
+            </nav>
           </div>
         </div>
+
       </div>
-      <div class="row main-container rounded pb-4 mt-5">
-        <!-- nav -->
-        <div class="col-md col-md-12 mb-3">
-          <nav class="navbar navbar-expand-lg nav-top_main-content mb-2 border-bottom">
-            <a class="navbar-brand text-darken" href="#">Pacifico seguros S.A.C</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              </ul>
-              <h2 class="form-inline my-2 my-lg-0 pt-4 pb-4 text-light_darken title-light_darken">
-                <i class="fas fa-clock nav-content_text"></i>
-                <span class="ml-3"> Mayo 29,7:12 pm</span>
-              </h2>
-              <article class="ml-3">
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <label class="btn btn-light active">
-                    <i class="fas fa-caret-left"></i>
-                  </label>
-                  <label class="btn btn-light">
-                    <i class="fas fa-caret-right"></i>
-                  </label>
-                </div>
-              </article>
-            </div>
-          </nav>
-        </div>
-        <!-- main content -- nr° 2 -->
-        <div class="col-md-4 col-sm-6 border-right col-xs-12 ">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
-              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-              aria-label="Placeholder: Thumbnail">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-            <div class="card-body justify-content-center">
-              <p class="card-text text-center text-to_auction"><strong>Subasta</strong><i class="fas fa-bell ml-2"></i>
-              </p>
-              <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
-              <div class=" align-items-center">
-                <div class="btn-group d-flex justify-content-center">
-                  <button type="button" class="btn btn-sm btn-to_auction rounded-pill text-light"><strong><span
-                        class="mr-2">$</span>3500 </strong></button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 border-right col-sm-6 col-xs-12 ">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
-              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-              aria-label="Placeholder: Thumbnail">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-            <div class="card-body justify-content-center">
-              <p class="card-text text-center text-to_buy"><strong>comprar ya</strong> <i
-                  class="fas fa-shopping-cart ml-2"></i></p>
-              <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
-              <div class=" align-items-center">
-                <div class="btn-group d-flex justify-content-center">
-                  <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
-                        class="mr-2">$</span>3500 </strong></button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 ">
-          <div class="card mb-4 shadow-sm ">
-            <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
-              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-              aria-label="Placeholder: Thumbnail">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
-            <div class="card-body justify-content-center">
-              <p class="card-text text-center text-to_buy"><strong>comprar ya</strong><i
-                  class="fas fa-shopping-cart ml-2"></i></p>
-              <p class="card-text text-center title-to_annoucement"><strong>CHEVROLET A91/2018</strong></p>
-              <div class=" align-items-center">
-                <div class="btn-group d-flex justify-content-center">
-                  <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light"><strong><span
-                        class="mr-2">$</span>3500 </strong></button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Btn -- load more items -->
-      <div class="col-md col-12 col-md-12 mt-5  ">
-        <nav aria-label="breadcrumb">
-          <button type="button" id="btn-load_more loadMore"
-            class="btn bg- rounded-pill expanded btn-block pt-3 pb-3 border font-weight-bold text-light_dark"> <span class="spinner-border spinner-border-sm mr-4" role="status" aria-hidden="true"></span>Load
-            more</button>
-      </div>
-      <!-- Widgets -->
       <div class="row">
         <div class="col-md col-12 pt-5 img-focus col-sm-12 col-md-6 col-xs-12 widgets">
           <article>
@@ -491,7 +550,7 @@
           </div>
         </div>
         <!-- Bottom footer -->
-       
+
         <div class="navbar nav-footer shadow-sm pt-5 pb-5">
           <div class="container d-flex justify-content-between text-darken">
             <a href="#" class="navbar-brand d-flex align-items-center">
@@ -509,8 +568,8 @@
             <a href="#" class="navbar-brand d-flex align-items-center">
               <span>Vender</span>
             </a>
-      </div>
-      </div>
+          </div>
+        </div>
         <!--Footer navbar-->
         <nav class="navbar navbar-expand-lg d-flex justify-content-around pt-5 pb-5">
           <ul class="navbar-nav mr-auto">
