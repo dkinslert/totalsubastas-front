@@ -18,8 +18,9 @@
   --var-carousel-text: #656b70;
   --var-data-shett_files-text: #c1f4f5;
   --var-darken: #4b5157;
-  --var-dark: #262d33;
+  --var-darken-flat: #939699;
   --var-darken_light: #edeff0;
+  --var-dark: #262d33;
   --var-ligthen: #d9dadb;
   --var-footer: #f5f5f5;
   --var-badge-sea: #c5e4fc;
@@ -170,6 +171,25 @@ footer {
   font-weight: 600;
   text-transform: uppercase;
 }
+.car-side-nav_header {
+  background-color:#FFFFFF ;
+}
+.car-side-nav_bp {
+  font-size: 14px;
+  font-family: "Graphik";
+  color: var(--var-darken) ;
+  font-weight: 400 ;
+  text-transform: Capitalize;
+}
+.car-side-nav_bp-span { 
+  font-size: 12px;
+  font-family: "Graphik";
+  color: var(--var-darken-flat) ;
+  font-weight: 300 ;
+  text-transform: capitalize;
+
+}
+
 article.p-side_nav {
   text-align: center;
   margin-top: 102px;
