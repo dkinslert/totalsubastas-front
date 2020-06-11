@@ -121,6 +121,12 @@ footer {
   height: 114px;
   background-color:#F5F5F5;
   padding:10px;
+  text-align:center;
+}
+.jumb-title_count-bottom {
+  font-size: 12px;
+  font-family: "Graphik";
+  color: lightgray;
 }
 .jumbotron-bottom_container button {
 }
