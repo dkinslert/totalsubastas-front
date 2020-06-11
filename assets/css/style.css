@@ -117,6 +117,11 @@ footer {
   background-position: center;
   background-color: #40303d87;
 }
+.auction-jumbotron {
+  height: 114px;
+  background-color:#F5F5F5;
+  padding:10px;
+}
 .jumbotron-bottom_container button {
 }
 .nav-auction_bottom {
