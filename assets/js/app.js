@@ -5,12 +5,18 @@ $(document).ready(function () {
   }
   $("#loadMore").on("click", function (e) {
     e.preventDefault();
-    console.log("Hello, World!");
     $(".moreBox:hidden").slice(0, 6).slideDown();
     if ($(".moreBox:hidden").length == 0) {
       $("#loadMore ").fadeOut("slow");
     }
   });
+
+  $('.collapse').on('shown.bs.collapse', function(){
+    $(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-angle-up");
+    }).on('hidden.bs.collapse', function(){
+    $(this).parent().find(".fa-angle-up").removeClass("fa-angle-up").addClass("fa-angle-down");
+  });
+
   $("#showpassword").on("click", function (e) {
     var x = document.getElementById("myInput");
     e.preventDefault();
@@ -32,12 +38,6 @@ $(document).ready(function () {
     }
   });
 
-  $(".card-header").on("click", function () {
-    $("#angle").removeClass("fa-angle-down").addClass("fa-angle-up");
-  });
-  $(".card-header").on(".collapse", function () {
-    $(".fas").removeClass("fa-arrow-up").addClass("fa-arrow-down");
-  });
 });
 
 (function () {})();
