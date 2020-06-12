@@ -4,6 +4,9 @@
 
 <head>
   <title>Getting Started</title>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://unpkg.com/lodash@4.16.6"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
@@ -279,64 +282,116 @@
       <!-- container -->
       <!-- End Navbar -->
       <!-- main content -->
-      <div class="col-8 main-container order-md-1">
-        
-      <div class="col-md col-md-12  mt-0 pt-2 data_sheet-d">
-        <div class="row  ">
-          <div class="col-12 col-md-4 col-sm-12 col-xs-12 pl-0 pb-0">
-            <div class="nav flex-column data_sheet-menu nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="font-weight-bold border-bottom text-center p-3 text-uppercase">Caracteristicas</a>
-              <a class="d-sheet_link border-bottom active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-resumen" role="tab" aria-controls="v-pills-home" aria-selected="true">resumen</a>
-              <a class="d-sheet_link border-bottom" id="v-pills-ficha_tecnica-tab" data-toggle="pill" href="#v-pills-ficha_tenica" role="tab" aria-controls="v-pills-ficha_tecnica" aria-selected="false">ficha tecnica</a>
-              <a class="d-sheet_link border-bottom" id="v-pills-equipamiento-tab" data-toggle="pill" href="#v-pills-equipamiento" role="tab" aria-controls="v-pills-equipamiento" aria-selected="false">equipamiento</a>
-              <a class="d-sheet_link border-bottom" id="v-pills-otros-tab" data-toggle="pill" href="#v-pills-otros" role="tab" aria-controls="v-pills-otros" aria-selected="false">otros</a>
-              <a class="d-sheet_link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">observaciones</a>
-            </div>
-          </div>
-          <div class="col-8 pt-3 p-4 pr-2">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-resumen" role="tabpanel" aria-labelledby="v-pills-resumen-tab">
-                <p>
-                  lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                  motor, el peso general de la moto y el tipo
-                  de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                  excelente rendimiento de combustible, que sumados
-                  a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                  de 0.92 galones a tope
-                </p>
-                <div class="row">
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
-                  <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="col-sm col-md-12 col-sm-12 main-container order-md-1">
+              <div class="col-md col-md-12 col-sm-12  mt-0 pt-2 data_sheet-d">
+                <div class="row  ">
+                  <div class="col-12 col-md-4 col-sm-12 col-xs-12 pl-0 pb-0">
+                    <div class="nav flex-column data_sheet-menu nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="font-weight-bold border-bottom text-center p-3 text-uppercase">Caracteristicas</a>
+                      <a class="d-sheet_link border-bottom active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-resumen" role="tab" aria-controls="v-pills-home" aria-selected="true">resumen</a>
+                      <a class="d-sheet_link border-bottom" id="v-pills-ficha_tecnica-tab" data-toggle="pill" href="#v-pills-ficha_tenica" role="tab" aria-controls="v-pills-ficha_tecnica" aria-selected="false">ficha tecnica</a>
+                      <a class="d-sheet_link border-bottom" id="v-pills-equipamiento-tab" data-toggle="pill" href="#v-pills-equipamiento" role="tab" aria-controls="v-pills-equipamiento" aria-selected="false">equipamiento</a>
+                      <a class="d-sheet_link border-bottom" id="v-pills-otros-tab" data-toggle="pill" href="#v-pills-otros" role="tab" aria-controls="v-pills-otros" aria-selected="false">otros</a>
+                      <a class="d-sheet_link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">observaciones</a>
+                    </div>
+                  </div>
+                  <div class="col-8 pt-3 p-4 pr-2">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-resumen" role="tabpanel" aria-labelledby="v-pills-resumen-tab">
+                        <p>
+                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
+                          motor, el peso general de la moto y el tipo
+                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
+                          excelente rendimiento de combustible, que sumados
+                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
+                          de 0.92 galones a tope
+                        </p>
+                        <div class="row">
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                          <div class="col"><span><i class="fas fa-checked "></i></span><i class="fas fa-checked "> </i></div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-ficha_tenica" role="tabpanel" aria-labelledby="v-pills-ficha_tecnica">
+                        ficha tecnica
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-equipamiento" role="tabpanel" aria-labelledby="v-pills-equipamiento-tab">
+                        equipamiento
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-otros" role="tabpanel" aria-labelledby="v-pills-otros-tab">
+                        otros
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        observaciones
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="v-pills-ficha_tenica" role="tabpanel" aria-labelledby="v-pills-ficha_tecnica">
-                ficha tecnica
-              </div>
-              <div class="tab-pane fade" id="v-pills-equipamiento" role="tabpanel" aria-labelledby="v-pills-equipamiento-tab">
-                equipamiento
-              </div>
-              <div class="tab-pane fade" id="v-pills-otros" role="tabpanel" aria-labelledby="v-pills-otros-tab">
-                otros
-              </div>
-              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                observaciones
-              </div>
+          </div>
+          </div>
+          <div class="col-md-3 ml-auto main-container">.col-md-3 .ml-auto side rigth</div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 ml-md-auto mt-4">    
+            <div class="col-11 d-flex">
+            <div class="col-3 data_sheet-bottom_files col-md-4 mr-4 col-sm-12 col-xs-12 ">
+              <article>
+                <strong class="text-light d-flex justify-content-center pt-3 pb-5 pl-3 pr-2">Ficha sunarp</strong>
+                <p
+                  class="text-light  d-flex justify-content-center  pt-2 pr-2 pl-2 pr-2 pb-2 border-bottom text-doc_data-sheet">
+                  PDF, 125 MB, Sep
+                  8 at 2:03 pm</p>
+                <span class="d-flex justify-content-center text-light pb-3"><i class="fab fa-download mr-2"></i>
+                  <strong>Download</strong></span>
+              </article>
+            </div>
+            <div class="col-3 data_sheet-bottom_files col-md-4 mr-4 col-sm-12 col-xs-12 ">
+              <article>
+                <strong class="text-light d-flex justify-content-center pt-3 pb-5 pl-3 pr-2">Ficha tecnica</strong>
+                <p
+                  class="text-light  d-flex justify-content-center  pt-2 pr-2 pl-2 pr-2 pb-2 border-bottom text-doc_data-sheet">
+                  PDF, 125 MB, Sep
+                  8 at 2:03 pm</p>
+                <span class="d-flex justify-content-center text-light pb-3"><i class="fab fa-download mr-2"></i>
+                  <strong>Download</strong></span>
+              </article>
+            </div>
+            <div class="col-3 data_sheet-bottom_files col-md-4 ml-2 col-sm-12 col-xs-12 ">
+              <article>
+                <strong class="text-light d-flex justify-content-center pt-3 pb-5 pl-3 pr-2">Terminos y condiciones</strong>
+                <p class="text-light  d-flex justify-content-center  pt-2 pr-2 pl-2  pb-2 border-bottom text-doc_data-sheet">
+                  PDF, 125 MB, Sep
+                  8 at 2:03 pm</p>
+                <span class="d-flex justify-content-center text-light pb-3"><i class="fab fa-download mr-2"></i>
+                  <strong>Download</strong></span>
+              </article>
             </div>
           </div>
         </div>
+          <div class="col-md-3 ml-md-auto main-container mt-4">.col-md-3 .ml-md-auto side rigth</div>
+        </div>
       </div>
+  
+      
+      
   </div>
-      <div class="col-3 col-md-3 col-sm-12 ml-5 order-md-2 main-container">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum id aliquam eaque expedita incidunt asperiores praesentium quibusdam a labore necessitatibus delectus facilis, soluta aspernatur animi iure corporis nemo error quas!</p>
-      </div>
+  <div class="row  mt-5 d-flex justify-content-left">
+
+ 
+
   </div>
+  <!-- Sidebar right-->
+    
     <div class="row mb-5 mt-5 tabs-auction_bottom">
       <div class=" bg-light  ">
         <ul class="nav nav-tabs nav-auction_bottom" id="myTab" role="tablist">
@@ -427,40 +482,7 @@
         </div>
       </div>
     </div>
-    <div class="row mt-5 d-flex justify-content-around">
-      <div class="col-12 data_sheet-bottom_files col-md-3 col-sm-12 col-xs-12 m-4 ">
-        <article>
-          <strong class="text-light d-flex justify-content-center pt-3 pb-5 pl-3 pr-2">Ficha sunarp</strong>
-          <p
-            class="text-light  d-flex justify-content-center  pt-2 pr-2 pl-2 pr-2 pb-2 border-bottom text-doc_data-sheet">
-            PDF, 125 MB, Sep
-            8 at 2:03 pm</p>
-          <span class="d-flex justify-content-center text-light pb-3"><i class="fab fa-download mr-2"></i>
-            <strong>Download</strong></span>
-        </article>
-      </div>
-      <div class="col-12 data_sheet-bottom_files col-md-3 col-sm-12 col-xs-12 m-4 ">
-        <article>
-          <strong class="text-light d-flex justify-content-center pt-3 pb-5 pl-3 pr-2">Ficha tecnica</strong>
-          <p
-            class="text-light  d-flex justify-content-center  pt-2 pr-2 pl-2 pr-2 pb-2 border-bottom text-doc_data-sheet">
-            PDF, 125 MB, Sep
-            8 at 2:03 pm</p>
-          <span class="d-flex justify-content-center text-light pb-3"><i class="fab fa-download mr-2"></i>
-            <strong>Download</strong></span>
-        </article>
-      </div>
-      <div class="col-12 data_sheet-bottom_files col-md-3 col-sm-12 col-xs-12 m-4 ">
-        <article>
-          <strong class="text-light d-flex justify-content-center pt-3 pb-5 pl-3 pr-2">Terminos y condiciones</strong>
-          <p class="text-light  d-flex justify-content-center  pt-2 pr-2 pl-2  pb-2 border-bottom text-doc_data-sheet">
-            PDF, 125 MB, Sep
-            8 at 2:03 pm</p>
-          <span class="d-flex justify-content-center text-light pb-3"><i class="fab fa-download mr-2"></i>
-            <strong>Download</strong></span>
-        </article>
-      </div>
-    </div>
+    
     <div class="row mt-5 main-container">
       <!-- Widgets -->
       <!--Footer-->
