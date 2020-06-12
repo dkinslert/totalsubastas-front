@@ -199,9 +199,7 @@ footer {
   color: var(--var-darken-flat) ;
   font-weight: 300 ;
   text-transform: capitalize;
-
 }
-
 article.p-side_nav {
   text-align: center;
   margin-top: 102px;
@@ -382,6 +380,7 @@ article.p-side_nav h2 {
   font-size: 20px;
   font-weight: 500;
   color: var(--var-dark);
+  line-height: 20px;
 }
 .btn-outline-primary {
   border: 1px solid #4592ff;
@@ -426,6 +425,20 @@ article.p-side_nav h2 {
   color: var(--var-badge-sea_text);
   font-family: "Graphik-Regular";
   font-weight: 100;
+}
+.caret-play_auction-gallery ul li{
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid var(--var-social-network-text);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.caret-play_auction-gallery ul li  {
+  font-size:24px;
 }
 .btn-to_auction {
   background-color: var(--var-to_auction);
