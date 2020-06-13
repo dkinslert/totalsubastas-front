@@ -17,14 +17,14 @@
   --var-whatsapp: #3dc47e;
   --var-carousel-text: #656b70;
   --var-data-shett_files-text: #c1f4f5;
-  --var-night-dark:#30363D;
+  --var-night-dark: #30363d;
   --var-darken: #4b5157;
   --var-darken-flat: #939699;
   --var-darken_light: #edeff0;
   --var-dark: #262d33;
   --var-ligthen: #d9dadb;
   --var-footer: #f5f5f5;
-  --var-bg-light-card:#F5F5F5;
+  --var-bg-light-card: #f5f5f5;
   --var-badge-sea: #c5e4fc;
   --var-light-gray: var(--var-lighthen-gray);
   --var-badge-sea_text: #55839e;
@@ -121,9 +121,9 @@ footer {
 }
 .auction-jumbotron {
   height: 114px;
-  background-color:#F5F5F5;
-  padding:10px;
-  text-align:center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
 }
 .jumb-title_count-bottom {
   font-size: 12px;
@@ -175,7 +175,7 @@ footer {
 .side-nav {
   border-radius: 10px;
 }
-.card.side-nav a{
+.card.side-nav a {
   text-decoration: none;
 }
 .car-side-nav_title {
@@ -185,20 +185,20 @@ footer {
   text-transform: uppercase;
 }
 .car-side-nav_header {
-  background-color:#FFFFFF ;
+  background-color: #ffffff;
 }
 .car-side-nav_bp {
   font-size: 14px;
   font-family: "Graphik";
-  color: var(--var-darken) ;
-  font-weight: 400 ;
+  color: var(--var-darken);
+  font-weight: 400;
   text-transform: Capitalize;
 }
-.car-side-nav_bp-span { 
+.car-side-nav_bp-span {
   font-size: 12px;
   font-family: "Graphik";
-  color: var(--var-darken-flat) ;
-  font-weight: 300 ;
+  color: var(--var-darken-flat);
+  font-weight: 300;
   text-transform: capitalize;
 }
 article.p-side_nav {
@@ -427,7 +427,7 @@ article.p-side_nav h2 {
   font-family: "Graphik-Regular";
   font-weight: 100;
 }
-.caret-play_auction-gallery ul li{
+.caret-play_auction-gallery ul li {
   display: flex;
   border-radius: 50%;
   border: 1px solid var(--var-social-network-text);
@@ -438,8 +438,8 @@ article.p-side_nav h2 {
   align-items: center;
   margin-right: 10px;
 }
-.caret-play_auction-gallery ul li  {
-  font-size:24px;
+.caret-play_auction-gallery ul li {
+  font-size: 24px;
 }
 .btn-to_auction {
   background-color: var(--var-to_auction);
@@ -520,9 +520,9 @@ article.p-side_nav h2 {
 /* Datasheet */
 /*.data_sheet-d {
 }*/
-.content-d_sheet{
+.content-d_sheet {
   height: 570px;
-    overflow: scroll;
+  overflow: scroll;
 }
 .r-timer_live {
   text-transform: uppercase;
@@ -848,7 +848,7 @@ article.p-side_nav h2 {
   background-color: var(--var-ligthen);
 }
 .bg-light-card {
-  with:100%;
-  height:auto;
-  background-color:var(--var-bg-light-card);
+  with: 100%;
+  height: auto;
+  background-color: var(--var-bg-light-card);
 }
