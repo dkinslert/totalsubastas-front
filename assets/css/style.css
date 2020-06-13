@@ -24,6 +24,7 @@
   --var-dark: #262d33;
   --var-ligthen: #d9dadb;
   --var-footer: #f5f5f5;
+  --var-bg-light-card:#F5F5F5;
   --var-badge-sea: #c5e4fc;
   --var-light-gray: var(--var-lighthen-gray);
   --var-badge-sea_text: #55839e;
@@ -519,7 +520,10 @@ article.p-side_nav h2 {
 /* Datasheet */
 /*.data_sheet-d {
 }*/
-
+.content-d_sheet{
+  height: 570px;
+    overflow: scroll;
+}
 .r-timer_live {
   text-transform: uppercase;
   font-size: 14px;
@@ -674,7 +678,7 @@ article.p-side_nav h2 {
   display: flex;
 }
 .m-acc_text h2 {
-  font-size: 20px;
+  font-size: 14px;
   color: var(--var-dark);
   font-weight: 700;
 }
@@ -842,4 +846,9 @@ article.p-side_nav h2 {
 }
 .bg-ligthen-gray {
   background-color: var(--var-ligthen);
+}
+.bg-light-card {
+  with:100%;
+  height:auto;
+  background-color:var(--var-bg-light-card);
 }
