@@ -148,6 +148,11 @@ footer {
 .text-tabs_acution-bottom {
   font-weight: 600;
 }
+.text-auction_live {
+  font-size:8px;
+  font-family: "Graphik";
+  margin-left: 2px;
+}
 .jumbotron-top_container {
   background-color: var(--var-darken);
   background-size: cover;
@@ -290,10 +295,11 @@ article.p-side_nav h2 {
 .data_sheet-bottom_files {
   background-color: var(--var-to_buy);
   border-radius: 10px;
-  max-width: 263px;
+  width: 263px;
   max-height: 170px;
   font-size: 14px;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -822,6 +828,11 @@ article.p-side_nav h2 {
   }
   .top-slide {
     display: none;
+  }
+  .data_sheet-bottom_files  {
+    width: 100%;
+    display:block;
+    background-color: #4592ff;
   }
 }
 
