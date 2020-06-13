@@ -151,7 +151,7 @@ footer {
 .text-auction_live {
   font-size:14px;
   font-family: "Graphik";
-  margin-left: 2px;
+  margin-left: 4px;
 }
 .jumbotron-top_container {
   background-color: var(--var-darken);
@@ -566,7 +566,7 @@ article.p-side_nav h2 {
 }
 .text-to_title-auction_live {
   font-family: "Graphik";
-  font-size:14;
+  font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
   color: var(--var-dark);
