@@ -558,6 +558,13 @@ article.p-side_nav h2 {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+.text-to_title-auction_live {
+  font-family: "Graphik";
+  font-size:14;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--var-dark);
+}
 .text-to_title-auction_ranking {
   font-family: "Graphik";
   font-size: 14px;

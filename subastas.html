@@ -278,16 +278,180 @@
       </div>
   -->
     </div>
-    <div class="row ">
       <!-- container -->
       <!-- End Navbar -->
-      <!-- main content -->
+      
       <div class="container">
-        <div class="row ">
-          <div class="col-md-9">
-            <div class="col-sm col-md-12 col-sm-12 main-container order-md-1">
+        <div class="row">
+          <!-- main content -->
+         <div class="col-md-3 order-md-2 mb-4 ">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted"></span>
+            <span class="badge badge-secondary badge-pill"></span>
+          </h4>
+          <!--Accordion wrapper-->
+          <div class="accordion md-accordion" id="categorias" role="tablist" aria-multiselectable="true">
+            <!-- Accordion card -->
+            <div class="card side-nav">
+              <!-- Card header -->
+              <a data-toggle="collapse" data-parent="#categorias" href="#collapseOne1" aria-expanded="true"
+                aria-controls="collapseOne1" class="">
+                <div class="card-header car-side-nav_header text-dark d-flex justify-content-between border-bottom  collapsed border-0"
+                  role="tab" id="headingOne1">
+
+                  <p class="mb-0 car-side-nav_title text-dark ">
+                    solicita una vista
+                  </p>
+                  <i  class="fas fa-calendar "></i>
+                </div>
+              </a>
+              <!-- Card body -->
+              <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                data-parent="#accordionEx">
+                <div class="card-body ">
+                  <div class="col d-flex justify-content-between  mt-2">
+                    <p class="car-side-nav_bp"> Puedes venir al almacén central, solicita una visita aquí: </p> 
+                  </div>
+                  <form class="form-group d-block  mb-3">
+                  <div class="input-group  mb-3">
+                  <label class="tex-dark font-weight-bold">fecha</label>
+                  <input type="date" class="form-control">  
+                </div>
+                <div class="input-group mb-3">
+                  <label class="tex-dark font-weight-bold">hora </label>
+                  <input type="time" class="form-control">  
+                </div>
+                <div class="input-group  mb-3 d-flex justify-content-center ">
+                  
+                  <button type="button" class="btn btn-primary rounded-pill" value="solicitar">  solicitar</button>
+                </div>
+              </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion md-accordion mt-4" id="ofertas" role="tablist" aria-multiselectable="true">
+            <!-- Accordion card -->
+            <div class="card side-nav">
+              <!-- Card header -->
+              <a data-toggle="collapse" data-parent="#ofertas" href="#collapse1" aria-expanded="true"
+                aria-controls="collapse1" class="">
+                <div class="card-header car-side-nav_header text-dark d-flex justify-content-between border-bottom  collapsed border-0"
+                  role="tab" id="headingOne1">
+
+                  <p class="mb-0 car-side-nav_title text-dark ">
+                    ofertas
+                  </p>
+                  <i  class="fas fa-calendar "></i>
+                </div>
+              </a>
+              <!-- Card body -->
+              <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                data-parent="#accordionEx">
+              <div class="row p-4">
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom">
+                  <div class="col-md-4 text-to_title-auction_live">
+                   usuario
+                  </div>
+                  <div class="col-md-4 text-to_title-auction_live">
+                   fecha
+                  </div>
+                  <div class="col-md-4 text-to_title-auction_live">
+                    monto
+                  </div>
+                </div>
+                <div class="row" style="height:200px; overflow: auto;">
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom ">
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    1
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    Usuario
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal text-to_best-auction ranking_to-auction_text">
+                   $ 12800
+                  </div>
+                </div>
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom ">
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    1
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    Usuario
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal text-to_best-auction ranking_to-auction_text">
+                   $ 12800
+                  </div>
+                </div>
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom ">
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    1
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    Usuario
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal text-to_best-auction ranking_to-auction_text">
+                   $ 12800
+                  </div>
+                </div>
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom ">
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    1
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    Usuario
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal  ranking_to-auction_text">
+                   $ 12800
+                  </div>
+                </div>
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom ">
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    1
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    Usuario
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal  ranking_to-auction_text">
+                   $ 12800
+                  </div>
+                </div>
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom ">
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    1
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    Usuario
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal  ranking_to-auction_text">
+                   $ 12800
+                  </div>
+                </div>
+                <div class="col-12 pt-2 d-flex pb-2  border-bottom ">
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    1
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal">
+                    Usuario
+                  </div>
+                  <div class="col-md-4 text-darken font-weight-normal text-to_best-auction ranking_to-auction_text">
+                   $ 12800
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion wrapper -->
+        </div>
+          <div class="col-md-9 order-md-1 "> 
+            <div class="row main-container">          
               <div class="col-md col-md-12 col-sm-12  mt-0 pt-2 data_sheet-d">
-                <div class="row  ">
+                <div class="row">
                   <div class="col-12 col-md-4 col-sm-12 col-xs-12 pl-0 pb-0">
                     <div class="nav flex-column data_sheet-menu nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                       <a class="font-weight-bold border-bottom text-center p-3 text-uppercase">Caracteristicas</a>
@@ -301,62 +465,6 @@
                   <div class="col-8 pt-3 p-4 pr-2">
                     <div class="tab-content" id="v-pills-tabContent">
                       <div class="tab-pane fade show active" id="v-pills-resumen" role="tabpanel" aria-labelledby="v-pills-resumen-tab">
-                        <p>
-                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                          motor, el peso general de la moto y el tipo
-                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                          excelente rendimiento de combustible, que sumados
-                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                          de 0.92 galones a tope
-                        </p>
-                        <p>
-                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                          motor, el peso general de la moto y el tipo
-                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                          excelente rendimiento de combustible, que sumados
-                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                          de 0.92 galones a tope
-                        </p>
-                        <p>
-                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                          motor, el peso general de la moto y el tipo
-                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                          excelente rendimiento de combustible, que sumados
-                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                          de 0.92 galones a tope
-                        </p>
-                        <p>
-                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                          motor, el peso general de la moto y el tipo
-                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                          excelente rendimiento de combustible, que sumados
-                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                          de 0.92 galones a tope
-                        </p>
-                        <p>
-                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                          motor, el peso general de la moto y el tipo
-                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                          excelente rendimiento de combustible, que sumados
-                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                          de 0.92 galones a tope
-                        </p>
-                        <p>
-                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                          motor, el peso general de la moto y el tipo
-                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                          excelente rendimiento de combustible, que sumados
-                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                          de 0.92 galones a tope
-                        </p>
-                        <p>
-                          lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
-                          motor, el peso general de la moto y el tipo
-                          de conducciÃ³n que mantenga el piloto. En leo 110, los dos primeros factores estan a favor de un
-                          excelente rendimiento de combustible, que sumados
-                          a una conducciÃ³n tranquila, permiten entregar una autonomia aproximada de 165 km. con su toque
-                          de 0.92 galones a tope
-                        </p>
                         <p>
                           lo que determina el consumo de combustible de una moto, esta dado principalmente por el tamaÃƒÂ±o de su
                           motor, el peso general de la moto y el tipo
@@ -394,13 +502,9 @@
                   </div>
                 </div>
               </div>
-          </div>
-          </div>
-          <div class="col-md-3 ml-auto main-container">.col-md-3 .ml-auto side right top</div>
-        </div>
-        <div class="row">
-          <div class="col-md-9 ml-md-auto mt-4">    
-            <div class="col-11 d-flex">
+         
+            </div><!-- row main container -->
+            <div class="col-11 mt-4 d-flex">
             <div class="col-3 p-0 data_sheet-bottom_files col-md-4 mr-4 col-sm-12 col-xs-12 ">
               <article>
                 <strong class="text-light d-flex justify-content-center pt-3 pb-5 pl-3 pr-2">Ficha sunarp</strong>
@@ -433,111 +537,17 @@
                   <strong>Download</strong></span>
               </article>
             </div>
-          </div>
         </div>
-          <div class="col-md-3 ml-md-auto main-container mt-4">.col-md-3 .ml-md-auto side rigth</div>
-        </div>
-      </div>
-  
-      
-      
-  </div>
-  <div class="row  mt-5 d-flex justify-content-left">
+        </div> <!-- End cold md-9 order 1-->
+          </div><!-- End row -->
+        
+      </div><!-- End container -->
+  </div> 
 
- 
-
-  </div>
   <!-- Sidebar right-->
     
     <div class="row mb-5 mt-5 tabs-auction_bottom">
-      <div class=" bg-light  ">
-        <ul class="nav nav-tabs nav-auction_bottom" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <a class="nav-link active text-dark  text-capitalize text-tabs_acution-bottom" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-              aria-selected="true">detalles</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link text-dark  text-capitalize text-tabs_acution-bottom" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-              aria-selected="false">Documentaci&oacute;n</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link text-tabs_acution-bottom" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-              aria-selected="false">Condiciones</a>
-          </li>
-         
-        </ul>
-        <div class="tab-content bg-light" id="myTabContent">
-          <div class="tab-pane fade active show p-2" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <div class="row p-3">
-              <div class="col col-md-3 col-sm-12 col-xs-12 p-4">
-                <article>
-                  <div class="media">
-
-                    <img src="./assets/img/thumbs/image-173.png" alt="">
-                    <div class="media-body">
-                      <h5 class="mt-0 pl-2">Media heading</h5>
-                      <p class="pl-2"> Donec lacinia congue felis in faucibus. </p>
-                    </div>
-
-                  </div>
-                </article>
-              </div>
-              <div class="col col-md-3 col-sm-12 col-xs-12 p-4">
-                <article>
-                  <div class="media">
-                    <img src="./assets/img/thumbs/image-173.png" alt="">
-                    <div class="media-body">
-                      <h5 class="mt-0 pl-2">Media heading</h5>
-                      <p class="pl-2"> lacinia congue felis in faucibus. </p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col col-md-3 col-sm-12 col-xs-12 p-4">
-                <article>
-                  <div class="media">
-
-                    <img src="./assets/img/thumbs/image-173.png" alt="">
-                    <div class="media-body">
-                      <h5 class="mt-0 pl-2">Media heading</h5>
-                      <p class="pl-2"> lacinia congue felis in faucibus. </p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col col-md-3 col-sm-12 col-xs-12 p-4">
-                <article>
-                  <div class="media">
-                    <img src="./assets/img/thumbs/image-173.png" alt="">
-                    <div class="media-body">
-                      <h5 class="mt-0 pl-2">Media heading</h5>
-                      <p class="pl-2"> lacinia congue felis in faucibus. </p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade  p-4" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1
-              labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft
-              beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
-              vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica
-              VHS
-            <p> yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson </p>salvia
-            8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
-            stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-          </div>
-          <div class="tab-pane fade  p-4 " id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro
-              fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone
-              skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings
-              gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel
-              fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer
-              blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-          </div>
-        </div>
-      </div>
+    
     </div>
     
     <div class="row mt-5 main-container">
@@ -640,9 +650,6 @@
   </div>
   </footer>
   <!-- end footer -->
-  </div>
-  <!-- end row -->
-  </div>
   <!-- end container -->
   <script src="./src/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
