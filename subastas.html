@@ -206,17 +206,19 @@
                   <article>
                     <figure>
                       <div class="mb-3 text-center">
-                        <svg id="i-chevron-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <svg id="i-chevron-top" href="#carouselExampleControls" role="button" data-slide="prev"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                           <path d="M30 20 L16 8 2 20"></path>
                       </svg>
                       </div>
+
                       <fieldset>
-                        <img class="rounded pb-3 pl-1" data-target="#Firstimg" src="./assets/img/thumbs/image-074.png" alt="">
-                        <img class="rounded pb-3 pl-1" data-target="#secimg" src="./assets/img/thumbs/image-075.png" alt="">
+                        <img class="rounded pb-3 pl-1"  data-target='#carouselExampleControls' data-slide-to='0' src="./assets/img/thumbs/image-074.png" alt="">
+                        <img class="rounded pb-3 pl-1"  data-target='#carouselExampleControls' data-slide-to='1' src="./assets/img/thumbs/image-075.png" alt="">
                         <img class="rounded pl-1" data-target="#FirstSlide" src="./assets/img/thumbs/image-076.png" alt="">
+                        
                       </fieldset>
                       <div class=" text-center mt-3">
-                        <svg id="i-chevron-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <svg id="i-chevron-bottom" href="#carouselExampleControls" role="button" data-slide="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                           <path d="M30 12 L16 24 2 12"></path>
                       </svg>
                       </div>
@@ -228,13 +230,37 @@
                         </ul>
                       </div>
                     </figure>
+                    
                   </article>
+                  
                 </div>
             </div>
             <div class="col-md col-md-9"></div>
           </div>
           <div class="col-md col-12 col-sm-12 col-xs-12 pt-5 pr-4 pl-5" id="auction-img_d">
-            <img src="./assets/img/image-077.png" width="90%" alt="" />
+            <div class="bd-example " >
+              <div id="carouselExampleControls"  class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/image-077.png"  width="100%" height="400">
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                  </div>
+                </div>
+              <!--  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>-->
+              </div>
+              </div>
           </div>
         </div>
       </div>
@@ -371,12 +397,6 @@
                    $ 12800
                   </div>
                 </div>
-              
-               
-                
-                
-                
-               
                 
               </div>
             </div>
@@ -495,8 +515,8 @@
               <div class="tab-content bg-light " id="myTabContent">
                 <div class="tab-pane fade active show p-2 " id="home" role="tabpanel" aria-labelledby="home-tab">
                   <div class="row p-3">
-                    <div class="col-12 col-md-3 col-sm-12 col-xs-12 p-4">
-                      <article>
+                    <div class="col-12 col-md-3 col-sm-12 col-xs-12 p-4 " >
+                      <article >
                         <div class="media">
       
                           <img src="./assets/img/thumbs/image-173.png" alt="">
