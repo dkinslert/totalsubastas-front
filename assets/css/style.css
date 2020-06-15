@@ -146,13 +146,18 @@ footer {
 .tabs-auction_bottom {
   border-radius: 10px;
 }
-.text-tabs_acution-bottom {
+.text-tabs_auction-bottom {
   font-weight: 600;
+}
+.auction-content_tab {
+  border-radius:15px;
 }
 .text-auction_live {
   font-size:14px;
   font-family: "Graphik";
-  margin-left: 4px;
+}
+.ranking-side_nav-auction {
+  padding: 8px;
 }
 .jumbotron-top_container {
   background-color: var(--var-darken);
