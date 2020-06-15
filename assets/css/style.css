@@ -327,6 +327,9 @@ article.p-side_nav h2 {
   font-family: "Graphik";
   font-weight: 600;
 }
+.data_sheet-d a.active {
+  border-right: 5px solid var(--var-primary);
+}
 .text-download_dsheet-auction {
   padding: 15px;
   font-size: 14px;
@@ -334,7 +337,11 @@ article.p-side_nav h2 {
   font-weight: 300;
   font-style: normal;
 }
-
+.title-popup {
+  font-size: 20px;
+  font-family: "Graphik";
+  font-weight: 600;
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -439,7 +446,7 @@ article.p-side_nav h2 {
   line-height: 20px;
 }
 .btn-outline-primary {
-  border: 1px solid #4592ff;
+  border: 1px solid var(--var-primary);
 }
 .btn-outline-dark {
   border: 1px solid var(--var-ligthen);
