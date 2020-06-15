@@ -887,7 +887,8 @@ article.p-side_nav h2 {
   }
   .data_sheet-bottom_files  {
     width: 100%;
-    display:block;
+    display:flex;
+    flex-wrap: nowrap;
     background-color: #4592ff;
   }
 }
