@@ -322,6 +322,18 @@ article.p-side_nav h2 {
   max-height: 170px;
   font-size: 14px;
 }
+.title_data-sheet_bottom {
+  font-size: 16px;
+  font-family: "Graphik";
+  font-weight: 600;
+}
+.text-download_dsheet-auction {
+  padding: 15px;
+  font-size: 14px;
+  font-family: "Graphik";
+  font-weight: 300;
+  font-style: normal;
+}
 
 @keyframes spin {
   0% {
