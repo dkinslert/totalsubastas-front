@@ -38,6 +38,10 @@ $(document).ready(function () {
     }
   });
 
+  $('.caret-play_auction-gallery').on('click', function () {
+    $('#homeCarousel').carousel('cycle');
+  })
+
 });
 
 (function () {})();

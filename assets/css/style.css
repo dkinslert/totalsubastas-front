@@ -194,10 +194,16 @@ footer {
 .card.side-nav a {
   text-decoration: none;
 }
-.car-side-nav_title {
+.card-side-nav_title {
   font-size: 14px;
   color: var(--var-dark);
   font-weight: 600;
+  text-transform: uppercase;
+}
+.card-side_faqs {
+  font-size: 20px;
+  color: var(--var-dark);
+  font-weight: 700;
   text-transform: uppercase;
 }
 .car-side-nav_header {
