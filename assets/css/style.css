@@ -599,7 +599,7 @@ article.p-side_nav h2 {
   font-family: "Graphik";
   font-size: 14px;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--var-dark);
 }
 .text-to_title-auction_ranking {
