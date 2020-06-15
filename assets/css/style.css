@@ -180,6 +180,17 @@ footer {
 .side-nav {
   border-radius: 10px;
 }
+.side-nav-br_50 {
+  width: 90px;
+  margin-top: 35px;
+  height: 90px; border-radius:50%;
+}
+.side-nav_title-card {
+  font-size: 20px;
+  font-family: "Graphik";
+  text-transform: uppercase;
+  color: var(--var-dark);
+}
 .card.side-nav a {
   text-decoration: none;
 }
@@ -866,7 +877,7 @@ article.p-side_nav h2 {
   background-color: var(--var-ligthen);
 }
 .bg-light-card {
-  with: 100%;
+  width: 100%;
   height: auto;
   background-color: var(--var-bg-light-card);
 }
