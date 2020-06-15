@@ -327,6 +327,20 @@ article.p-side_nav h2 {
 }
 /* .top-slide_carousel-item-b {
 } */
+.live-today {
+  background-color: #FF4F52;
+  width: 46px;
+  height: 25px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  margin-top: 18px;
+  margin-left: 18px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
 .top-slide article h1 {
   color: var(--var-light-text);
   font-family: "graphik";
