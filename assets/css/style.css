@@ -943,3 +943,10 @@ article.p-side_nav h2 {
   height: auto;
   background-color: var(--var-bg-light-card);
 }
+
+.close-modal {
+  width: 16px;
+  height: 16px;
+  font-weight: 100;
+  color: var(--var-lighthen-gray);
+}
