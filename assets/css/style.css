@@ -342,6 +342,13 @@ article.p-side_nav h2 {
   font-family: "Graphik";
   font-weight: 600;
 }
+.text-popup {
+  color: var(--var-darken);
+  font-size: 14px;
+  text-align: center;
+  font-family: "Graphik";
+  opacity: 1;
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
