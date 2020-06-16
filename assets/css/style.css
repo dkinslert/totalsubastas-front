@@ -143,6 +143,16 @@ footer {
   border-right: 0;
   border-radius: 0;
 }
+/* Chevron on Small size */
+.auction-chevron_right {
+  position: absolute;
+  right: 0;
+}
+.auction-chevron_left {
+  position: absolute;
+  margin-right: 49px;
+  left: 0;
+}
 .tabs-auction_bottom {
   border-radius: 10px;
 }
@@ -331,7 +341,6 @@ article.p-side_nav h2 {
   border-right: 5px solid var(--var-primary);
 }
 .text-download_dsheet-auction {
-  padding: 15px;
   font-size: 14px;
   font-family: "Graphik";
   font-weight: 300;
