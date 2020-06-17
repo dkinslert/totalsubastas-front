@@ -222,6 +222,16 @@ footer {
   font-weight: 700;
   text-transform: capitalize;
 }
+.text-nav_faqs {
+  font-size: 14px;
+  font-family: "Graphik";
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align:center;
+}
+.topics {
+  height: 622px;
+}
 .car-side-nav_header {
   background-color: #ffffff;
 }
@@ -925,6 +935,10 @@ article.p-side_nav h2 {
 .text-darken {
   color: var(--var-darken);
 }
+.text-darken-flat {
+  color: var(--var-darken-flat);
+}
+
 .text-light_darken {
   color: var(--var-light-gray);
 }
