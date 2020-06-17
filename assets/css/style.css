@@ -505,6 +505,10 @@ article.p-side_nav h2 {
   font-family: "Graphik-Regular";
   font-weight: 100;
 }
+
+.thumb-active  {
+  border: 1px solid  var(--primary);
+}
 .caret-play_auction-gallery ul li {
   display: flex;
   border-radius: 50%;
@@ -903,6 +907,7 @@ article.p-side_nav h2 {
   }
   .data_sheet-bottom_files  {
     width: 100%;
+    height: auto;
     display:flex;
     flex-wrap: nowrap;
     background-color: #4592ff;

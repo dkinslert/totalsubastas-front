@@ -37,10 +37,19 @@ $(document).ready(function () {
       $(this).addClass("spinner-border spinner-border-sm");
     }
   });
-
+  $(".thumbs_auction-img ").click(function () {
+      $(".thumbs_auction-img").removeClass("thumb-active");
+      $(".thumbs_auction-img").removeClass("thumb-active");
+      var $this = $(this);
+      if (!$this.hasClass("thumb-active")) {
+        $(this).addClass("thumb-active");
+      }
+  });
   $('.caret-play_auction-gallery').on('click', function () {
     $('#homeCarousel').carousel('cycle');
   })
+
+  $('body').scrollspy({ target: '#v-pills-tabContent' })
 
 });
 
