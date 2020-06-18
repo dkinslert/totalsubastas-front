@@ -921,7 +921,7 @@ article.p-side_nav h2 {
   .data_sheet-bottom_files  {
     width: 100%;
     height: auto;
-    display:flex;
+    display:block;
     flex-wrap: nowrap;
     background-color: #4592ff;
   }

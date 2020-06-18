@@ -49,8 +49,7 @@ $(document).ready(function () {
     $('#homeCarousel').carousel('cycle');
   })
 
-  $('body').scrollspy({ target: '#v-pills-tabContent' })
-  
+  $('.pills-tab').scrollspy({ target: '#pills-tab' })
  
 
 });
