@@ -341,7 +341,7 @@ article.p-side_nav h2 {
 .data_sheet-bottom_files {
   background-color: var(--var-to_buy);
   border-radius: 10px;
-  width: 263px;
+ /* width: 263px; */
   max-height: 170px;
   font-size: 14px;
 }
