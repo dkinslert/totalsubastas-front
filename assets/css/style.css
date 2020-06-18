@@ -335,6 +335,9 @@ article.p-side_nav h2 {
   height: 120px;
   animation: spin 2s linear infinite;
 }
+ .content-dropzone {
+    border: 2px dashed #707070;
+  }
 .data_sheet-bottom_files {
   background-color: var(--var-to_buy);
   border-radius: 10px;
