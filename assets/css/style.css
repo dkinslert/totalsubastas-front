@@ -919,11 +919,6 @@ article.p-side_nav h2 {
     display: none;
   }
   .data_sheet-bottom_files  {
-    width: 100%;
-    height: auto;
-    display:block;
-    flex-wrap: nowrap;
-    background-color: #4592ff;
   }
 }
 
