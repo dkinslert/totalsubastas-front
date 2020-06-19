@@ -164,10 +164,10 @@ footer {
   font-weight: 600;
 }
 .auction-content_tab {
-  border-radius:15px;
+  border-radius: 15px;
 }
 .text-auction_live {
-  font-size:14px;
+  font-size: 14px;
   font-family: "Graphik";
 }
 .car-side-nav_title {
@@ -176,7 +176,7 @@ footer {
   text-align: left;
   font-size: 14px;
   letter-spacing: 0.5px;
-  color: #262D33;
+  color: #262d33;
   font-weight: 600;
   text-transform: uppercase;
   opacity: 1;
@@ -214,7 +214,8 @@ footer {
 .side-nav-br_50 {
   width: 90px;
   margin-top: 35px;
-  height: 90px; border-radius:50%;
+  height: 90px;
+  border-radius: 50%;
 }
 .side-nav_title-card {
   font-size: 20px;
@@ -242,7 +243,7 @@ footer {
   font-family: "Graphik";
   font-weight: 300;
   text-transform: capitalize;
-  text-align:center;
+  text-align: center;
 }
 .topics {
   height: 622px;
@@ -350,13 +351,13 @@ article.p-side_nav h2 {
   height: 120px;
   animation: spin 2s linear infinite;
 }
- .content-dropzone {
-    border: 2px dashed #707070;
-  }
+.content-dropzone {
+  border: 2px dashed #707070;
+}
 .data_sheet-bottom_files {
   background-color: var(--var-to_buy);
   border-radius: 10px;
- /* width: 263px; */
+  /* width: 263px; */
   max-height: 170px;
   font-size: 14px;
 }
@@ -397,7 +398,7 @@ article.p-side_nav h2 {
 /* .top-slide_carousel-item-b {
 } */
 .live-today {
-  background-color: #FF4F52;
+  background-color: #ff4f52;
   width: 46px;
   height: 25px;
   position: absolute;
@@ -474,9 +475,9 @@ article.p-side_nav h2 {
   margin: 0;
   padding: 0;
 }
-.d_sheet-card { 
-  padding-left:0;
-  padding-right:0;
+.d_sheet-card {
+  padding-left: 0;
+  padding-right: 0;
 }
 .title-d_sheet-jumb {
   text-align: left;
@@ -538,8 +539,8 @@ article.p-side_nav h2 {
   font-weight: 100;
 }
 
-.thumb-active  {
-  border: 1px solid  var(--primary);
+.thumb-active {
+  border: 1px solid var(--primary);
 }
 .caret-play_auction-gallery ul li {
   display: flex;
@@ -770,6 +771,14 @@ article.p-side_nav h2 {
   font-family: "Graphik";
   font-size: 29px;
   font-weight: 600;
+  width: 246px;
+  height: 52px;
+}
+.gavel-live {
+  width: 27px;
+  font-size: 27px;
+  color: #ffa3ab;
+  opacity: 0.89;
 }
 .data_sheet-d_sm-text {
   font-size: 10px;
@@ -937,7 +946,7 @@ article.p-side_nav h2 {
   .top-slide {
     display: none;
   }
-  .data_sheet-bottom_files  {
+  .data_sheet-bottom_files {
   }
 }
 
