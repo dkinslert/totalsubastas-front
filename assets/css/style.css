@@ -767,6 +767,14 @@ article.p-side_nav h2 {
   color: #ac8ee3;
   font-size: 21.96px;
 }
+.oval {
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  background-color: #FFEEB3;
+  border-radius: 50%;
+  opacity: 1;
+}
 .badge_btn {
   font-family: "Graphik";
   font-size: 29px;
