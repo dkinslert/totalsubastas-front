@@ -518,6 +518,7 @@ article.p-side_nav h2 {
   opacity: 0.9;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  font-size: 14px;
 }
 .text-doc_data-sheet {
   font-family: "graphik";
