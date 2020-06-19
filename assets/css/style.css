@@ -439,7 +439,7 @@ article.p-side_nav h2 {
 }
 .top-slide .logo_top-slide-sg_falabella {
   margin-top: 44px;
-  margin-left: 19px;
+  margin-left: 32px;
   
 }
 .top-slide article .date_top-slide-sg_falabella {
@@ -472,7 +472,8 @@ article.p-side_nav h2 {
 }
 /* img item n° 1 */
 .carousel-item-a_imagen {
-  opacity: 0.9;
+  opacity: 0.99;
+  background: #40303D59 0% 0% no-repeat padding-box;
   width: 99.99999%;
 }
 .carousel-text_item_b {
