@@ -419,13 +419,25 @@ article.p-side_nav h2 {
 }
 .top-slide article h5 {
   color: var(--var-light-text);
+  opacity: 0.85;
+  height: 20px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0px;
+  text-shadow: 0px 3px 6px #00000029;
 }
-.top-slide article figure {
-  margin-left: 6em;
+.heading-carousel_top {
+  margin-left: 9em;
+  zoom: 0.7;
+  margin-top: 30px;
+}
+.heading-carousel {
+  margin-top:40px;
 }
 .top-slide .logo_top-slide-sg_falabella {
-  margin-top: 50px;
-  margin-left: 47px;
+  margin-top: 44px;
+  margin-left: 19px;
+  
 }
 .top-slide article .date_top-slide-sg_falabella {
   opacity: 0.5;
@@ -772,7 +784,7 @@ article.p-side_nav h2 {
   width: 260px;
   height: 260px;
   position: absolute;
-  background-color: #FFEEB3;
+  background-color: #ffeeb3;
   border-radius: 50%;
   opacity: 1;
 }
