@@ -166,6 +166,17 @@ footer {
   font-size:14px;
   font-family: "Graphik";
 }
+.car-side-nav_title {
+  font-family: "Graphik";
+  color: var(--var-dark);
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #262D33;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 1;
+}
 .ranking-side_nav-auction {
   padding: 8px;
 }
