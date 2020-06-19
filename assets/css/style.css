@@ -440,7 +440,6 @@ article.p-side_nav h2 {
 .top-slide .logo_top-slide-sg_falabella {
   margin-top: 44px;
   margin-left: 32px;
-  
 }
 .top-slide article .date_top-slide-sg_falabella {
   opacity: 0.5;
@@ -463,7 +462,7 @@ article.p-side_nav h2 {
   color: var(--var-light-text);
 }
 .carousel-btn-look_lote {
- /* margin-left: 4em; */
+  /* margin-left: 4em; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -473,7 +472,7 @@ article.p-side_nav h2 {
 /* img item n° 1 */
 .carousel-item-a_imagen {
   opacity: 0.99;
-  background: #40303D59 0% 0% no-repeat padding-box;
+  background: #40303d59 0% 0% no-repeat padding-box;
   width: 99.99999%;
 }
 .carousel-text_item_b {
