@@ -77,4 +77,20 @@ $(document).ready(function () {
   });
 });
 
-(function () {})();
+(function () {
+	
+	var myDropzoneTheFirst = new Dropzone(
+        //id of drop zone element 1
+        '#a-form-element', { 
+            url : "uploadUrl/1"
+        }
+    );
+
+var myDropzoneTheSecond = new Dropzone(
+        //id of drop zone element 2
+        '#an-other-form-element', { 
+            url : "uploadUrl/2"
+        }
+    );
+	
+})();
