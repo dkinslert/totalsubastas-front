@@ -75,6 +75,14 @@ $(document).ready(function () {
       indicators.append("<li data-target='#MyCarousel' data-slide-to='" + index + "' class='active'></li>") :
       indicators.append("<li data-target='#MyCarousel' data-slide-to='" + index + "'></li>");
   });
+  
+  
+  if( 'activate' ) {
+	//create element for class activate //after when user clicked on li 
+
+	
+	  
+  }
 });
 
 (function () {
