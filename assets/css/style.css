@@ -361,7 +361,7 @@ article.p-side_nav h2 {
   margin-left: 15%;
 }
 article.sec-carousel {
-  width: 48%;
+  width: 35%;
   position: absolute;
   padding-top: 50px;
 }
@@ -829,6 +829,11 @@ article.sec-carousel {
   background-color: #ffeeb3;
   border-radius: 50%;
   opacity: 1;
+  z-index: 999;
+  right: 0;
+}
+.grl-slideshow {
+  z-index: 9999;
 }
 .badge_btn {
   font-family: "Graphik";
