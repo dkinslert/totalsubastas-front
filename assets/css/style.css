@@ -1052,8 +1052,8 @@ article.sec-carousel {
   /*  height: 56%; */
 }
 .auction-m_left {
-  height: 50px;
-  width: 50%;
+  /*height: 50px;*/
+  /* width: 50%;*/
   position: absolute;
   bottom: 20px;
 }
