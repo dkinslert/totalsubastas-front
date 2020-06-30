@@ -60,7 +60,7 @@ footer {
 .nav-top {
   background-color: var(--var-nav-top);
   color: var(--var-dark);
-  height: 113px;
+  height: 145pxpx;
 }
 .navbar-top a {
   margin: 0 auto;
@@ -333,10 +333,34 @@ article.p-side_nav h2 {
 .carousel-indicators {
   position: absolute;
 }
+.first-slidel {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.sec_in-out {
+  /* z-index: -999;*/
+}
+.third_in-out {
+  z-index: -1;
+}
 .top-slide .top-slide_carousel-item-a {
   position: absolute;
   margin-left: 59px;
   z-index: 1;
+}
+.first-slide {
+  z-index: 999;
+}
+.first article {
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+article.sec-carousel {
+  width: 48%;
+  position: absolute;
+  padding-top: 50px;
 }
 .carousel-indicators li {
   border-radius: 50%;
@@ -434,12 +458,18 @@ article.p-side_nav h2 {
   justify-content: center;
   zoom: 0.7;
   margin-top: 30px;
+  position: absolute;
+  z-index: 1;
 }
 .heading-carousel {
+  position: absolute;
+  z-index: 999;
+  margin-top: 118px;
 }
 .top-slide .logo_top-slide-sg_falabella {
-  margin-top: 44px;
-  margin-left: 32px;
+  /*margin-top: 44px;
+  margin-left: 32px; */
+  margin: 0 auto;
 }
 .top-slide article .date_top-slide-sg_falabella {
   opacity: 0.5;
@@ -473,7 +503,9 @@ article.p-side_nav h2 {
 .carousel-item-a_imagen {
   opacity: 0.99;
   background: #40303d59 0% 0% no-repeat padding-box;
-  width: 99.99999%;
+  width: 99%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 .carousel-text_item_b {
   font-weight: 700;
@@ -991,7 +1023,12 @@ article.p-side_nav h2 {
 .text-darken-flat {
   color: var(--var-darken-flat);
 }
-
+.bg-success_light {
+  background-color: #3dc47e;
+}
+.card-slide {
+  border-radius: 10px;
+}
 .text-light_darken {
   color: var(--var-light-gray);
 }
@@ -1000,6 +1037,10 @@ article.p-side_nav h2 {
 }
 .text-to_best-auction {
   color: var(--var-to_aution-on-ranking);
+}
+.bg-y-light {
+  background-color: var(--var-carousel-item);
+  /*  height: 56%; */
 }
 .bg-darken {
   background-color: var(--var-darken);
