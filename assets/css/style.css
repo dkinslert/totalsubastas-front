@@ -338,6 +338,9 @@ article.p-side_nav h2 {
   z-index: 1;
   width: 100%;
 }
+.slide-border {
+  border-radius: 10px;
+}
 .sec_in-out {
   /* z-index: -999;*/
 }
