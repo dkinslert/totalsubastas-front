@@ -1051,6 +1051,12 @@ article.sec-carousel {
   background-color: var(--var-carousel-item);
   /*  height: 56%; */
 }
+.auction-m_left {
+  height: 50px;
+  width: 50%;
+  position: absolute;
+  bottom: 20px;
+}
 .bg-darken {
   background-color: var(--var-darken);
 }
