@@ -122,6 +122,7 @@ footer {
   background-image: url(../img/image-216.png) !important;
   background-size: cover;
   background-position: center;
+  filter: opacity(74%);git 
 }
 .auction-jumbotron {
   height: 114px;
