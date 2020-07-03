@@ -728,6 +728,9 @@ article.sec-carousel {
   border-bottom-color: var(--var-data-shett_files-text) !important;
   color: var(--var-data-shett_files-text);
 }
+.card-link_auctions {
+  font-weight: 500;
+}
 .badge-button_count_slide {
   font-family: var(--var-font-family);
   font-weight: 100;
