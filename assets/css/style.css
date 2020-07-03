@@ -725,6 +725,7 @@ article.sec-carousel {
   opacity: 0.9;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  border-bottom-color: var(--var-data-shett_files-text) !important;
   color: var(--var-data-shett_files-text);
 }
 .badge-button_count_slide {
@@ -1180,6 +1181,9 @@ article.sec-carousel {
 }
 .card-slide {
   border-radius: 10px;
+}
+.gift_card {
+  font-size: 25px;
 }
 .card-slide_success img {
   position: absolute;
