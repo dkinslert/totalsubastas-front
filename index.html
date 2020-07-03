@@ -9,7 +9,6 @@
   <script src="https://unpkg.com/lodash@4.16.6"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/css/grid.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <!-- body -->
@@ -93,10 +92,13 @@
         <div id="FirstSlide" class="carousel slide   first-slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
-            <li data-target="#FirstSlide" data-slide-to="0" class="active"></li>
+            <li data-target="#FirstSlide" data-slide-to="0" class=" on-load orbit orbit-on_load indicator ">
+            </li>
             <li data-target="#FirstSlide" data-slide-to="1"></li>
             <li data-target="#FirstSlide" data-slide-to="2"></li>
           </ol>
+          <div class="l_inner"></div>
+          <div class="l_inner-ab"></div>
           <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel dolorem iste, a non eligendi
                         provident, laborum, voluptates illo dicta ullam perspiciatis! Aliquam sunt porro commodi unde accusantium,
                         laudantium corrupti?</p>-->
@@ -126,6 +128,25 @@
               </article>
               <!-- slider item carousel nr° 1 -->
               <img class="carousel-item-a_imagen rounded" src="./assets/img/image-205.png" height="555px" alt="...">
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100%" height="555px"
+                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                aria-label="Placeholder: First slide">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect><text x="100%" y="100%" fill="#555" dy=".3em">Second
+                  slide</text>
+              </svg>
+
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100%" height="555px"
+                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                aria-label="Placeholder: First slide">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect><text x="100%" y="100%" fill="#555" dy=".3em">Third
+                  slide</text>
+              </svg>
             </div>
           </div>
         </div>
@@ -777,7 +798,147 @@
           </div>
         </div>
       </div>
-      <div class="row">
+
+      <div class="container d-flex justify-content-center">
+        <div class="row main-container  mt-5 mb-5 ">
+          <!-- nav -->
+          <div class="col col-md-12 col-sm-12 mb-3  pl-0 pr-0">
+            <nav class="navbar navbar-expand-lg pb-0 pt-0 nav-top_main-content mb-2 border-bottom">
+              <a class="navbar-brand text-darken" href="#">Banco fallabella S.A.C</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+                <h2 class="form-inline my-2 my-lg-0 pt-4 pb-4 text-light_darken title-light_darken">
+                  <i class="fas fa-clock nav-content_text"></i>
+                  <span class="ml-3"> Mayo 29,7:12 pm</span>
+                </h2>
+                <article class="ml-3">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-light active">
+                      <i class="fas fa-caret-left"></i>
+                    </label>
+                    <label class="btn btn-light">
+                      <i class="fas fa-caret-right"></i>
+                    </label>
+                  </div>
+                </article>
+              </div>
+            </nav>
+          </div>
+          <!-- main content -- nr° 2-->
+          <div class="col col-md-3 col-sm-6 border-right col-xs-6">
+            <div class="card mb-3 pub-item_cont ">
+              <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+              </svg>
+              <div class="card-body justify-content-center">
+                <p class="card-text text-center text-to_auction">
+                  <strong>Subasta</strong><i class="fas fa-bell ml-2"></i>
+                </p>
+                <p class="card-text text-center title-to_annoucement">
+                  <strong>CHEVROLET A91/2018</strong>
+                </p>
+                <div class="align-items-center">
+                  <div class="btn-group d-flex justify-content-center">
+                    <button type="button" class="btn btn-sm btn-to_auction rounded-pill text-light">
+                      <strong><span class="mr-2">$</span>3500 </strong>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-3 border-right col-sm-6 col col-xs-6">
+            <div class="card mb-4 pub-item_cont">
+              <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+              </svg>
+              <div class="card-body justify-content-center">
+                <p class="card-text text-center text-to_buy">
+                  <strong>comprar ya</strong>
+                  <i class="fas fa-shopping-cart ml-2"></i>
+                </p>
+                <p class="card-text text-center title-to_annoucement">
+                  <strong>CHEVROLET A91/2018</strong>
+                </p>
+                <div class="align-items-center">
+                  <div class="btn-group d-flex justify-content-center">
+                    <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light">
+                      <strong><span class="mr-2">$</span>3500 </strong>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="card mb-4 pub-item_cont">
+              <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+              </svg>
+              <div class="card-body justify-content-center">
+                <p class="card-text text-center text-to_buy">
+                  <strong>comprar ya</strong><i class="fas fa-shopping-cart ml-2"></i>
+                </p>
+                <p class="card-text text-center title-to_annoucement">
+                  <strong>CHEVROLET A91/2018</strong>
+                </p>
+                <div class="align-items-center">
+                  <div class="btn-group d-flex justify-content-center">
+                    <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light">
+                      <strong><span class="mr-2">$</span>3500 </strong>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 border-left mb-0">
+            <div class="card mb-4 pub-item_cont ">
+              <svg class="bd-placeholder-img card-img-top rounded" width="100%" height="172"
+                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+              </svg>
+              <div class="card-body justify-content-center">
+                <p class="card-text text-center text-to_buy">
+                  <strong>comprar ya</strong><i class="fas fa-shopping-cart ml-2"></i>
+                </p>
+                <p class="card-text text-center title-to_annoucement">
+                  <strong>CHEVROLET A91/2018</strong>
+                </p>
+                <div class="align-items-center">
+                  <div class="btn-group d-flex justify-content-center">
+                    <button type="button" class="btn btn-sm btn-to_buy rounded-pill text-light">
+                      <strong><span class="mr-2">$</span>3500 </strong>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row mb-sm-4">
         <div class="col-md col-12 pt-5 img-focus col-sm-12 col-md-6 col-xs-12 widgets">
           <article>
             <h2 class="ml-5">Credito vehicular</h2>
@@ -809,90 +970,94 @@
           </article>
         </div>
       </div>
-
-      <!--Footer-->
-      <footer>
-        <div class="row">
-          <div class="col-sm col-8 pt-5 col-md-8 align-self-center col-sm-12 col-xs-12 mb-2 mt-5 ml-sm-auto">
-            <article>
-              <div class="input-group col-md-8 offset-md-4">
-                <input type="text" class="form-control" placeholder="Ingresa tu correo para alerta de oportunidades!"
-                  aria-label="Ingresa tu correo para alerta de oportunidades!" aria-describedby="basic-addon2" />
-                <div class="input-group-append">
-                  <button type="button" class="input-group-text rss-send_email" id="basic-addon2">
-                    <i class="fas fa-paper-plane"></i>
-                  </button>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- Social Networks -->
-          <div class="col-sm col-md-3 ml-md-auto col-4 pt-5 col-sm-12 col-xs-12 mb-2 mt-5">
-            <article>
-              <article class="social-network_bottom">
-                <ul class="nav justify-content-end m-3">
-                  <li class="nav-item">
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                  </li>
-                </ul>
-              </article>
-            </article>
-          </div>
-        </div>
-        <!-- Bottom footer -->
-
-        <div class="navbar nav-footer shadow-sm pt-5 pb-5">
-          <div class="container d-flex justify-content-between text-darken">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Subastas</span>
-            </a>
-            <a href="FAQS.html" class="navbar-brand d-flex align-items-center">
-              <span>Preguntas</span>
-            </a>
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Condiciones</span>
-            </a>
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Quienes somos</span>
-            </a>
-            <a href="#" class="navbar-brand d-flex align-items-center">
-              <span>Vender</span>
-            </a>
-          </div>
-        </div>
-        <!--Footer navbar-->
-        <nav class="navbar navbar-expand-lg d-flex justify-content-around pt-5 pb-5">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                <span class="copyright">&copy;</span>
-                <span class="ml-2 copyright">2020 Totalsubastas </span>
-                <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">whatsapp</a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Asesoria legal</a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cont&aacute;ctenos</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0 mr-5 social-network_footer">
-            <img src="./assets/img/Logo-TS.svg">
-          </form>
-        </nav>
-      </footer>
-      <!-- end footer -->
     </div>
-    <!-- end row -->
+
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm col-8 pt-5 col-md-8 align-self-center col-sm-12 col-xs-12 mb-2 mt-5 ml-sm-auto">
+          <article>
+            <div class="input-group col-md-8 offset-md-6">
+              <input type="text" class="form-control" placeholder="Ingresa tu correo para alerta de oportunidades!"
+                aria-label="Ingresa tu correo para alerta de oportunidades!" aria-describedby="basic-addon2" />
+              <div class="input-group-append">
+                <span class="input-group-text rss-send_email" id="basic-addon2">
+                  <i class="fas fa-paper-plane"></i>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- Social Networks -->
+        <div class="col-sm col-md-4 ml-md-auto col-4 pt-5 col-sm-12 col-xs-12 mb-2 mt-5">
+          <article>
+            <article class="social-network_bottom">
+              <ul class="nav justify-content-end m-3">
+                <li class="nav-item">
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </article>
+          </article>
+        </div>
+      </div>
+      <!-- Bottom footer -->
+      <div class="navbar nav-footer shadow-sm pt-5 pb-5">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <span>Subastas</span>
+          </a>
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <span>Preguntas</span>
+          </a>
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <span>Condiciones</span>
+          </a>
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <span>Quienes somos</span>
+          </a>
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <span>Vender</span>
+          </a>
+        </div>
+      </div>
+      <!--Footer navbar-->
+      <nav class="navbar navbar-expand-lg d-flex justify-content-around pt-5 pb-5">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <span class="copyright">&copy;</span>
+              <span class="ml-2 copyright">2020 Totalsubastas </span>
+              <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">whatsapp</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Asesoria legal</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cont&aacute;ctenos</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 mr-5 social-network_footer">
+          total
+        </form>
+      </nav>
+    </div>
+  </footer>
+  <!--Footer-->
+
+  <!-- end footer -->
+  </div>
+  <!-- end row -->
   </div>
   <!-- end container -->
   <script src="./src/index.js"></script>

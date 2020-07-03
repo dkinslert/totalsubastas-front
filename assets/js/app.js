@@ -11,11 +11,21 @@ $(document).ready(function () {
     }
   });
 
-  $('.collapse').on('shown.bs.collapse', function(){
-    $(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-angle-up");
-    }).on('hidden.bs.collapse', function(){
-    $(this).parent().find(".fa-angle-up").removeClass("fa-angle-up").addClass("fa-angle-down");
-  });
+  $(".collapse")
+    .on("shown.bs.collapse", function () {
+      $(this)
+        .parent()
+        .find(".fa-angle-down")
+        .removeClass("fa-angle-down")
+        .addClass("fa-angle-up");
+    })
+    .on("hidden.bs.collapse", function () {
+      $(this)
+        .parent()
+        .find(".fa-angle-up")
+        .removeClass("fa-angle-up")
+        .addClass("fa-angle-down");
+    });
 
   $("#showpassword").on("click", function (e) {
     var x = document.getElementById("myInput");
@@ -27,78 +37,79 @@ $(document).ready(function () {
     }
   });
 
-  $(".carousel-indicators li").click(function () {
-    $(".carousel-indicators li").removeClass("active");
-    $(".carousel-indicators li").removeClass(
-      "spinner-border spinner-border-sm"
-    );
+  /* $(".carousel-indicators li").onChange(function () {
     var $this = $(this);
     if (!$this.hasClass("active")) {
-      $(this).addClass("spinner-border spinner-border-sm");
+      $(this).addClass("on-load");
     }
   });
+  */
   $(".thumbs_auction-img ").click(function () {
-      $(".thumbs_auction-img").removeClass("thumb-active");
-      var $this = $(this);
-      if (!$this.hasClass("thumb-active")) {
-        $(this).addClass("thumb-active");
-      }
+    $(".thumbs_auction-img").removeClass("thumb-active");
+    var $this = $(this);
+    if (!$this.hasClass("thumb-active")) {
+      $(this).addClass("thumb-active");
+    }
   });
-    $(".carousel-ctrl-next").click(function () {
-      var $this = $(this);
-      
+  $(".carousel-ctrl-next").click(function () {
+    var $this = $(this);
   });
-  $('.caret-play_auction-gallery').on('click', function () {
-    $('#homeCarousel').carousel('cycle');
-  })
-
-  $('.pills-tab').scrollspy({ target: '#pills-tab' })
-  
-  $('#hammer').click(function(){
-     $('.fa-gavel').removeClass('fa-rotate-270')
-     $('.fa-gavel').addClass('fa-rotate-180')
-  })
-/* when a user clicks, toggle the 'is-animating' class */
-  $(".heart").on('click touchstart', function(){
-    $(this).toggleClass('is_animating');
+  $(".caret-play_auction-gallery").on("click", function () {
+    $("#homeCarousel").carousel("cycle");
   });
 
-/*when the animation is over, remove the class*/
-  $(".heart").on('animationend', function(){
-    $(this).toggleClass('is_animating');
+  $(".pills-tab").scrollspy({ target: "#pills-tab" });
+
+  $("#hammer").click(function () {
+    $(".fa-gavel").removeClass("fa-rotate-270");
+    $(".fa-gavel").addClass("fa-rotate-180");
+  });
+  /* when a user clicks, toggle the 'is-animating' class */
+  $(".heart").on("click touchstart", function () {
+    $(this).toggleClass("is_animating");
+  });
+
+  /*when the animation is over, remove the class*/
+  $(".heart").on("animationend", function () {
+    $(this).toggleClass("is_animating");
   });
   var bootCarousel = $(".carousel");
   bootCarousel.append("<ol class='carousel-indicators'></ol>");
   var indicators = $(".carousel-indicators");
-  bootCarousel.find(".carousel-inner").children(".item").each(function(index) {
-      (index === 0) ?
-      indicators.append("<li data-target='#MyCarousel' data-slide-to='" + index + "' class='active'></li>") :
-      indicators.append("<li data-target='#MyCarousel' data-slide-to='" + index + "'></li>");
-  });
-  
-  
-  if( 'activate' ) {
-	//create element for class activate //after when user clicked on li 
+  bootCarousel
+    .find(".carousel-inner")
+    .children(".item")
+    .each(function (index) {
+      index === 0
+        ? indicators.append(
+            "<li data-target='#MyCarousel' data-slide-to='" +
+              index +
+              "' class='active'></li>"
+          )
+        : indicators.append(
+            "<li data-target='#MyCarousel' data-slide-to='" + index + "'></li>"
+          );
+    });
 
-	
-	  
+  if ("activate") {
+    //create element for class activate //after when user clicked on li
   }
 });
 
 (function () {
-	
-	var myDropzoneTheFirst = new Dropzone(
-        //id of drop zone element 1
-        '#a-form-element', { 
-            url : "uploadUrl/1"
-        }
-    );
+  var myDropzoneTheFirst = new Dropzone(
+    //id of drop zone element 1
+    "#a-form-element",
+    {
+      url: "uploadUrl/1",
+    }
+  );
 
-var myDropzoneTheSecond = new Dropzone(
-        //id of drop zone element 2
-        '#an-other-form-element', { 
-            url : "uploadUrl/2"
-        }
-    );
-	
+  var myDropzoneTheSecond = new Dropzone(
+    //id of drop zone element 2
+    "#an-other-form-element",
+    {
+      url: "uploadUrl/2",
+    }
+  );
 })();

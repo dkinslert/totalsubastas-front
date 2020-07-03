@@ -30,6 +30,7 @@
   --var-badge-sea_text: #55839e;
   --var-to_aution-on-ranking: #1dab5f;
   --var-carousel-item: #ffd980;
+  --var-font-family: "Graphik";
   --var-progress-bar: var(--var-carousel-item);
 }
 /* Body  */
@@ -79,7 +80,7 @@ footer {
   color: var(--var-lighthen-gray);
 }
 .nav-footer {
-  font-family: "Graphik";
+  font-family: var(--var-font);
   font-weight: 500;
   text-transform: uppercase;
   font-size: 14px;
@@ -88,7 +89,7 @@ footer {
 .nav-footer a {
   color: var(--var-darken);
   font-size: 14px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -103,7 +104,7 @@ footer {
 
 .nav-top_main-content a {
   font-size: 20px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   font-weight: 700;
   color: var(--var-dark);
 }
@@ -112,7 +113,7 @@ footer {
 }
 .title-light_darken {
   font-size: 20px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   font-weight: 400;
 }
 .jumbotron-bottom_container {
@@ -122,7 +123,7 @@ footer {
   background-image: url(../img/image-216.png) !important;
   background-size: cover;
   background-position: center;
-  filter: opacity(74%);git 
+  filter: opacity(74%);
 }
 .auction-jumbotron {
   height: 114px;
@@ -132,7 +133,7 @@ footer {
 }
 .jumb-title_count-bottom {
   font-size: 12px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   color: lightgray;
 }
 .jumbotron-bottom_container button {
@@ -169,15 +170,15 @@ footer {
 }
 .text-auction_live {
   font-size: 14px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
 }
 .car-side-nav_title {
-  font-family: "Graphik";
+  font-family: var(--var-font);
   color: var(--var-dark);
   text-align: left;
   font-size: 14px;
   letter-spacing: 0.5px;
-  color: #262d33;
+  color: var(--var-dark);
   font-weight: 600;
   text-transform: uppercase;
   opacity: 1;
@@ -194,7 +195,7 @@ footer {
 }
 .jumbotron-top_container h1 {
   font-size: 55px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
 }
 .jumbotron-top_container p {
   font-size: 18px;
@@ -220,7 +221,7 @@ footer {
 }
 .side-nav_title-card {
   font-size: 20px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   text-transform: uppercase;
   color: var(--var-dark);
 }
@@ -241,7 +242,7 @@ footer {
 }
 .text-nav_faqs {
   font-size: 14px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   font-weight: 300;
   text-transform: capitalize;
   text-align: center;
@@ -254,14 +255,14 @@ footer {
 }
 .car-side-nav_bp {
   font-size: 14px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   color: var(--var-darken);
   font-weight: 400;
   text-transform: Capitalize;
 }
 .car-side-nav_bp-span {
   font-size: 12px;
-  font-family: "Graphik";
+  font-family: var(--var-font);
   color: var(--var-darken-flat);
   font-weight: 300;
   text-transform: capitalize;
@@ -271,7 +272,7 @@ article.p-side_nav {
   margin-top: 102px;
   margin-left: 50px;
   position: absolute;
-  font-family: "Graphik";
+  font-family: var(--var-font);
 }
 article.p-side_nav h2 {
   font-size: 55px;
@@ -293,7 +294,7 @@ article.p-side_nav h2 {
   border-radius: 10px;
   height: 169px;
   width: 263px;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
 }
 .mc-card_top .card-title {
   font-size: 14px;
@@ -318,22 +319,154 @@ article.p-side_nav h2 {
 .card-body .sm-text_card {
   font-size: 11px;
 }
-.b-title {
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0;
-}
-.c-all_items {
-  width: 100%;
-  background-color: var(--var-nav-top);
-}
-.top-slide {
-  /* height: 555px; */
-  margin: 0;
-}
+
 .carousel-indicators {
   position: absolute;
 }
+
+/* */
+
+.l_inner {
+  width: 16.2px;
+  height: 16.5px;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+.carousel-indicators li {
+  width: 10.2px;
+  height: 10.5px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+/* indicator with border and background transparent */
+ol.carousel-indicators .orbit {
+  width: 16.2px;
+  height: 16.5px;
+  background: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border: 2px solid #ccc;
+  opacity: 0.9;
+  animation: spinner-border 9.75s linear 1;
+}
+ol.carousel-indicators .orbit-on_load {
+  width: 16.2px;
+  height: 16.5px;
+  background: transparent;
+  border: 2.4px solid #fff;
+  border-bottom-color: #ccc;
+  border-top-color: #ccc;
+  border-right-color: #ccc;
+  border-left-color: #ccc;
+}
+
+.l_inner {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.2px;
+  margin-right: 0px;
+}
+
+@-webkit-keyframes spinner-border {
+  /* from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+     border-right-color: #FFF;
+    border-bottom-color: #ccc;
+  }*/
+
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: #0000f1;
+    border-top-color: #ccc;
+    border-bottom-color: #ccc;
+    width: 70%;
+  }
+  45% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: #ccc;
+    border-left-color: #4592ff;
+    border-top-color: #ccc;
+    border-bottom-color: #ccc;
+  }
+  90% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: #ccc;
+    border-bottom-color: #4592ff;
+    border-top-color: #ccc;
+  }
+  99% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: #4592ff;
+    border-left-color: #4592ff;
+    border-bottom-color: #4592ff;
+    border-top-color: #4592ff;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: #ccc;
+    border-left-color: #ccc;
+    border-bottom-color: #ccc;
+    border-top-color: #ccc;
+  }
+}
+
+@keyframes spinner-border {
+  /*to {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border-right-color: #FFF;
+    border-left-color: #CCC;
+    border-bottom-color: #CCC;
+    border-top-color: #FFF;
+  }*/
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  45% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-top-color: #4592ff;
+    border-right-color: #4592ff;
+    border-left-color: #ccc;
+    border-bottom-color: #ccc;
+  }
+  90% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: #4592ff;
+    border-bottom-color: #4592ff;
+    border-left-color: #4592ff;
+    border-left-color: #4592ff;
+  }
+  99% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-right-color: #4592ff;
+    border-left-color: #4592ff;
+    border-bottom-color: #4592ff;
+    border-top-color: #4592ff;
+  }
+}
+
 .first-slidel {
   position: absolute;
   z-index: 1;
@@ -366,10 +499,12 @@ article.sec-carousel {
   position: absolute;
   padding-top: 50px;
 }
-.carousel-indicators li {
+.carousel-indicators li .on-load {
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
+  height: 16px;
+  width: 16px;
+  padding: 16px;
+  background: transparent;
 }
 .carousel-indicators_loading {
   border: 1px solid #f3f3f3; /* Light grey */
@@ -391,7 +526,7 @@ article.sec-carousel {
 }
 .title_data-sheet_bottom {
   font-size: 16px;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: 600;
 }
 .data_sheet-d a.active {
@@ -399,20 +534,20 @@ article.sec-carousel {
 }
 .text-download_dsheet-auction {
   font-size: 14px;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: 300;
   font-style: normal;
 }
 .title-popup {
   font-size: 20px;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: 600;
 }
 .text-popup {
   color: var(--var-darken);
   font-size: 14px;
   text-align: center;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   opacity: 1;
 }
 @keyframes spin {
@@ -442,7 +577,7 @@ article.sec-carousel {
 
 .top-slide article h1 {
   color: var(--var-light-text);
-  font-family: "graphik";
+  font-family: var(--var-font-family);
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -493,7 +628,7 @@ article.sec-carousel {
 }
 .carousel-btn_text-success {
   font-size: 14px;
-  font-family: "graphik";
+  font-family: var(--var-font-family);
   color: var(--var-light-text);
 }
 .carousel-btn-look_lote {
@@ -526,7 +661,7 @@ article.sec-carousel {
   background-color: var(--var-lighthen-gray);
 }
 .text-s_gd-sheet {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: 500;
   font-size: 12.5px;
   margin: 0;
@@ -538,7 +673,7 @@ article.sec-carousel {
 }
 .title-d_sheet-jumb {
   text-align: left;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   letter-spacing: -0.5px;
   color: var(--var-lighthen-gray);
   text-transform: uppercase;
@@ -570,7 +705,7 @@ article.sec-carousel {
   background-color: var(--var-primary);
 }
 .text-doc_saga-fallabella {
-  font-family: "graphik";
+  font-family: var(--var-font-family);
   font-weight: 100;
   opacity: 0.9;
   border-bottom-right-radius: 0;
@@ -578,7 +713,7 @@ article.sec-carousel {
   font-size: 14px;
 }
 .text-doc_data-sheet {
-  font-family: "graphik";
+  font-family: var(--var-font-family);
   font-weight: 100;
   opacity: 0.9;
   border-bottom-right-radius: 0;
@@ -586,7 +721,7 @@ article.sec-carousel {
   color: var(--var-data-shett_files-text);
 }
 .badge-button_count_slide {
-  font-family: "graphik";
+  font-family: var(--var-font-family);
   font-weight: 100;
 }
 .badge-sea {
@@ -635,12 +770,12 @@ article.sec-carousel {
 }
 .title-to_breadcrums {
   color: var(--var-dark);
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: 500;
 }
 .title-to_results {
   color: var(--var-light-gray);
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
 }
 .text-to_auction {
   color: var(--var-to_auction);
@@ -720,26 +855,26 @@ article.sec-carousel {
   border-radius: 10px;
 }
 .ranking_to-auction_text {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-size: 14px;
   text-transform: uppercase;
 }
 .text-_to-auction_bottom {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
 }
 .text-to_title-auction_live {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 500;
   color: var(--var-dark);
 }
 .text-to_title-auction_ranking {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-size: 14px;
   text-transform: uppercase;
   color: var(--var-darken);
@@ -755,7 +890,7 @@ article.sec-carousel {
   background-color: var(--var-progress-bar);
 }
 .badge_live {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-size: 20px;
 }
 .text-badge_live {
@@ -837,7 +972,7 @@ article.sec-carousel {
   z-index: 9999;
 }
 .badge_btn {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-size: 29px;
   font-weight: 600;
   width: 246px;
@@ -852,7 +987,7 @@ article.sec-carousel {
 .data_sheet-d_sm-text {
   font-size: 10px;
   font-weight: 500;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
 }
 .d-s_especificaciones {
   width: 72px;
@@ -865,7 +1000,7 @@ article.sec-carousel {
   text-decoration: none;
   cursor: pointer;
   font-weight: 500;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   text-transform: uppercase;
 }
 .d-sheet_link {
@@ -884,7 +1019,7 @@ article.sec-carousel {
 .m-acc_text h5 {
   font-size: 14px;
   font-weight: 600;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   text-transform: uppercase;
   color: var(--var-dark);
 }
@@ -893,13 +1028,13 @@ article.sec-carousel {
   right: 0;
   margin-right: 59px;
   color: var(--var-darken);
-  font: 500 14px/20px "Graphik";
+  font: 500 14px/20px var(--var-font-family);
 }
 .m-acc_text p {
   font-size: 12px;
   font-weight: 400;
   margin: 1px;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   color: var(--var-darken);
 }
 .m-acc_points {
@@ -910,13 +1045,13 @@ article.sec-carousel {
 .m-acc_char {
   color: #fff;
   font-size: 25px;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: 700;
   text-align: "center";
 }
 .m-acc_points-bottom {
   color: #d0f7c6;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-size: 14px;
 }
 .m-acc_points-bottom::before {
@@ -932,7 +1067,7 @@ article.sec-carousel {
 }
 /* Register Form */
 .t-rform_top h1 {
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
 }
 .t-rform_top_img {
   background-color: var(--var-dark);
@@ -970,7 +1105,7 @@ article.sec-carousel {
   position: absolute;
   color: var(--var-light-text);
   display: flex;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: bold;
   padding-top: 37px;
   text-align: center;
@@ -982,7 +1117,7 @@ article.sec-carousel {
   position: absolute;
   color: var(--var-light-text);
   display: flex;
-  font-family: "Graphik";
+  font-family: var(--var-font-family);
   font-weight: 400;
   padding-top: 99px;
   text-align: left;
@@ -1090,6 +1225,105 @@ article.sec-carousel {
   font-weight: 100;
   color: var(--var-lighthen-gray);
 }
+/* Modal for auctions detail */
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
 .heart:hover {
   background-position: right;
 }
