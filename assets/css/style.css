@@ -731,6 +731,7 @@ article.sec-carousel {
 .card-link_auctions {
   font-weight: 500;
 }
+
 .badge-button_count_slide {
   font-family: var(--var-font-family);
   font-weight: 100;
@@ -762,6 +763,11 @@ article.sec-carousel {
 }
 .btn-to_auction {
   background-color: var(--var-to_auction);
+}
+.btn_auction {
+  width: 140px;
+  height: 30px;
+  margin: 0 auto;
 }
 .btn-to_action-bottom {
   color: var(--var-dark);
