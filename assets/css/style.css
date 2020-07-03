@@ -1181,6 +1181,11 @@ article.sec-carousel {
 .card-slide {
   border-radius: 10px;
 }
+.card-slide_success img {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
 .text-light_darken {
   color: var(--var-light-gray);
 }
