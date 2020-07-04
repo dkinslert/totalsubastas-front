@@ -32,6 +32,7 @@
   --var-carousel-item: #ffd980;
   --var-font-family: "Graphik";
   --var-progress-bar: var(--var-carousel-item);
+  --var-rating-star: #ffa34d;
 }
 
 /* Body  */
@@ -1259,6 +1260,9 @@ article.sec-carousel {
 }
 .fa-download {
   border-radius: 0;
+}
+.bg-rating_star {
+  color: var(--var-rating-star);
 }
 .heart {
   cursor: pointer;
