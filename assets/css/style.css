@@ -309,18 +309,36 @@ article.p-side_nav h2 {
 .pub-item_cont {
   border: 0;
 }
-.card.mb-4.pub-item_cont figure img {
+.card.mb-4.pub-item_cont article img {
   margin: 0 auto;
   width: 99%;
 }
-.pub-item_head i {
+.pub-item_head i,
+.pub-item_head span p {
   position: absolute;
 }
-.pub-item_head i .fa .fa-heart-o {
-  bottom: 0;
+.fa-heart-o:before {
+  content: "";
+  display: none;
 }
-.pub-item_head i .fa .fa-bookmark-o {
+.pub-item_head .heart,
+.pub-item_head span p {
+  top: 130px;
+}
+.pub-item_head span p {
+  margin-left: 45px;
+  font-size: 12px;
+  font-family: var(--var-font-family);
+}
+/*.heart {
+  bottom: 0;
+}*/
+
+.pub-item_head .bookmark {
   right: 0;
+  margin-right: 10px;
+  margin-top: 14px;
+  color: #bcbfc2;
 }
 .text-fh_nav {
   font-size: 14px;
@@ -356,13 +374,10 @@ article.p-side_nav h2 {
 .card-body .sm-text_card {
   font-size: 11px;
 }
-
 .carousel-indicators {
   position: absolute;
 }
-
 /* */
-
 .l_inner {
   width: 16.2px;
   height: 16.5px;
@@ -1279,9 +1294,9 @@ article.sec-carousel {
 }
 .heart {
   cursor: pointer;
-  height: 50px;
+  height: 14px;
   width: 50px;
-  background-image: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png");
+  background-image: url(https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png);
   background-position: left;
   background-repeat: no-repeat;
   background-size: 2900%;
