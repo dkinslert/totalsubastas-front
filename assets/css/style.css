@@ -323,7 +323,7 @@ article.p-side_nav h2 {
 }
 .pub-item_head .heart,
 .pub-item_head span p {
-  top: 130px;
+  /* margin-top: 105px;*/
 }
 .pub-item_head span p {
   margin-left: 45px;
